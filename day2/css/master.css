@@ -1,0 +1,57 @@
+h1, h2, h3, h4, h5, h6 {
+    color: mediumaquamarine;
+}
+
+h1 {
+    color: blue;
+    font-size: 3.5em;
+}
+h2 {
+    color: green;
+}
+
+ol {
+    color: blueviolet;
+}
+
+ol ul {
+    color: red;
+}
+
+ul {
+    list-style-type: armenian;
+    color: darkred;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*
+inside the box is padding, outside the box is margin
+*/
+.loremStuff {
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: wheat;
+    border: 1px solid wheat;
+    box-shadow: 3px 3px 10px wheat;
+}
+
+#lorem2 {
+    color: chartreuse;
+    border: 1px solid chartreuse;
+    box-shadow: 3px 3px 10px chartreuse;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cantStopWontStop {
+    list-style-type: lower-greek;
+}
