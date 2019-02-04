@@ -1,3 +1,30 @@
 #day {
     color: blue;
 }
+
+table {
+    width: 100%;
+    background-color: cornsilk;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+    border: 2px solid green;
+}
+
+th {
+    font-size: 1.25em;
+    background-color: black;
+    color: white;
+}
+
+table td:hover {
+    border-bottom: 2px solid red;
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+
+table tr:nth-child(even){
+    background-color: silver;
+}
