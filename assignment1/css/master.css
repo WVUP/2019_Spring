@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    color: RGB(234, 234, 234);
+    background-color: #1F8339;
+   }
+   
+   h1 {
+    text-decoration: underline;
+   }
+   
+   #education, #hobbies {
+    text-align: center;
+    padding: 100px 0px;
+   }
+   
+   #profile-photo {
+    margin-top: 10px;
+    width: 45vw;
+    height: 45vw;
+    border-radius: 50%;
+   }
+   
+   #header {
+    text-align: center;
+   }
+   
+   #phone-icon, #building-icon, #email-icon {
+    width: 5vw;
+    heigh: 5vw;
+   }
+   
+   #filmography {
+    text-align: center;
+   }
+   
+   .tile {
+    text-align: left;
+    vertical-align: middle;
+    width: 40vw;
+    max-width: 200px;
+    min-height: 130px;
+    margin-bottom: 5px;
+    padding: 1vw 1vw;
+    display: inline-block;
+    border: 3px solid black;
+   }
+   
+   @media (min-width: 1000px) {
+    #contact-info {
+     verticle-align: middle;
+     border: 2px solid black;
+     margin: 5vw;
+    }
+    #phone-info, #address-info, #email-info {
+     height: 160px;
+     padding: 20px;
+     min-width: 25vw;
+     display: inline-block;
+    }
+   }
