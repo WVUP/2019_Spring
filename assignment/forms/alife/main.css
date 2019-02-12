@@ -1,0 +1,27 @@
+#left-side, #right-side {
+    width: 45%;
+    float: left;
+    text-align: center;
+}
+
+#emailLabel {
+    padding-left: 23px;
+}
+
+.submit {
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8%;
+    transition: 500ms all ease-in;
+}
+.submit:hover {
+    background-color: purple;
+    color: paleturquoise;
+}
+
+html {
+    background: rgb(1, 1, 88);
+    color: white;
+}

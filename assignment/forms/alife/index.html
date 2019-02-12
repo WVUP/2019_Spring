@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div id="left-side">
+        <h1>Hello from the left side</h1>
+        <form id="login-form" action="">
+            <label for="email" id="emailLabel">Email:</label>
+            <input type="email" id="emailInput" required> <br>
+            <label for="password" id="passwordLabel">Password: </label>
+            <input required type="password" id="passwordInput" pattern="[A-Z]+[a-z]+[0-9]+[!@#$%^&*()+_=-]+.{8,25}"> <br>
+            <div id="submit1" class="submit">
+                Submit 1
+            </div>
+        </form>
+        <form id="radio-btn-form" action="">
+            <input type="radio" name="radio-btn" id="radio-btn1"><label for="radio-btn1">Cookies</label>
+            <input type="radio" name="radio-btn" id="radio-btn2"><label for="radio-btn2">Cake</label>
+            <input type="radio" name="radio-btn" id="radio-btn3"><label for="radio-btn3">Ice Cream</label>
+        </form>
+        <form id="signup-form" action="">
+            <input id="fName" type="text" placeholder="First Name"> <br>
+            <input id="lName" type="text" placeholder="Last Name"> <br>
+            <input id="email" type="email" placeholder="example@email.com"> <br>
+            <input id="userName" type="text" placeholder="User Name"> <br>
+            <div id="submit2" class="submit">
+                Submit 2
+            </div>
+        </form>
+    </div>
+    <div id="right-side">
+        <h1>I must've called a thousand times</h1>
+        <div id="displayEmail"></div>
+        <div id="displayPassword"></div>
+        <div id="displayUsers"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
