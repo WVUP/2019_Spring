@@ -11,10 +11,10 @@
     <div id="left-side">
         <h1>Hello from the left side</h1>
         <form id="login-form" action="">
-            <label for="email" id="emailLabel">Email:</label>
+            <label for="emailInput" id="emailLabel">Email:</label>
             <input type="email" id="emailInput" required> <br>
-            <label for="password" id="passwordLabel">Password: </label>
-            <input required type="password" id="passwordInput" pattern="[A-Z]+[a-z]+[0-9]+[!@#$%^&*()+_=-]+.{8,25}"> <br>
+            <label for="passwordInput" id="passwordLabel">Password: </label>
+            <input required type="password" id="passwordInput" pattern="^[a-zA-Z0-9]\w{3,14}$"> <br>
             <div id="submit1" class="submit">
                 Submit 1
             </div>
@@ -33,6 +33,7 @@
                 Submit 2
             </div>
         </form>
+        
     </div>
     <div id="right-side">
         <h1>I must've called a thousand times</h1>
