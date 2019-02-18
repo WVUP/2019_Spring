@@ -8,6 +8,8 @@ var person = {
     age: 32,
 };
 
+// random
+
 function printFullName(person) {
     return `${person.lastName}, ${person.firstName}`;
 }
