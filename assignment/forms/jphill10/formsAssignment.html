@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Assignment</title>
+</head>
+<body>
+
+    <h1>Inputs Form</h1>
+    
+
+    <form name ="input">
+        <p>Please enter your username and password.</p>
+        
+        <input type="text" name="username" placeholder="Username" pattern="[a-zA-Z]+" oninvalid="this.setCustomValidity('Username is incorrect or empty.')" required> 
+        <br>
+        <input type="password" name="password" placeholder="Password" oninvalid="this.setCustomValidity('Password is incorrect or empty.')" required>
+        <br>
+        <p>Please enter your email</p>
+        <input type="email" name="useremail" placeholder="Email">
+        <br>
+        <p>Which do you prefer?</p>
+        <input type="radio" name="userSelection" id="userSelection"><label for="userSelection">Cats</label><br />
+        <input type="radio" name="userSelection" id="userSelection"><label for="userSelection">Dogs</label><br />
+        <input type="radio" name="userSelection" id="userSelection"><label for="userSelection">Turtles</label><br />
+        <input type="radio" name="userSelection" id="userSelection"><label for="userSelection">I don't like animals</label><br />
+        <br>
+        <p>Tell me something about yourself.</p>
+        <textarea cols="30" rows="10"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+  
+
+</body>
+</html>
