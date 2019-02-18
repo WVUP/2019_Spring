@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    color: rgb(241, 226, 226);
+    background-color: rgb(28, 29, 26);
+}
+
+.container, .container2, .container3, .container4 {
+    padding-bottom: 5px;
+}
+
+.container {
+    display: flex;
+    height: 25%;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+}
+
+.container3 {
+    display: flex;
+    height: 25%;
+    flex-direction: row-reverse;
+}
+
+.container4 {
+    display: flex;
+    height: 25%;
+    flex-direction: column;
+}
+
+.item2 {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1;
+    text-align: center;
+}
+
+.blue-box, .green-box {
+    flex: 2;
+}
