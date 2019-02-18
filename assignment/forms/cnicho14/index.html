@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript</title>
+  <body>
+    <form name="forms">
+      <input
+        required
+        id="firstNames"
+        type="text"
+        name="firstinput"
+        placeholder="Enter first name"
+      />
+      <br />
+      <input
+        required
+        id="lastName"
+        type="text"
+        name="lastName"
+        placeholder="Enter last name"
+      />
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+        pattern="[a-zA-Z 0-9]+"
+        required
+      />
+      <br />
+      <input
+        required
+        type="email"
+        id="myEmail"
+        name="email"
+        placeholder="Enter email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+        size="30"
+      />
+      <input type="submit" id="subbtn" onclick="buildHtml()" />
+    </form>
+    <div id="myContent"></div>
+    <script src="main.js"></script>
+  </body>
+</html>
