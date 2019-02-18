@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div>
+        <p>RADIO!</p>
+        <input type="radio">
+        <input type="radio">
+        <input type="radio">
+
+        <p>CHECK IT!!!</p>
+        <input type="checkbox" name="CLICK ME!" id="">
+        <p>Do you think youre cool?</p>
+        <input type="checkbox" name="CLICK ME!" id="">
+        <p>Do you think youre stupid?</p>
+        <input type="checkbox" name="CLICK ME!" id="">
+
+        <p>SUPER SECRET PASSWORD</p>
+        <input type="password" name="Password" id="" placeholder="Password">
+
+        <p>SUBMIT NOTHING!</p>
+        <input type="submit" value="">
+
+        <p>CHOOSE A FILE THAT YOU CAN'T DO ANYTHING WITH!!!</p>
+        <input type="file" name="" id="">
+
+        <p>TEXT SOMETHING!!</p>
+        <input type="text" placeholder="JUST DO IT!">
+        <p>whats yo email girl? ;)</p>
+        <input type="email" name="useremail" id="useremail" placeholder="Email">
+        <p>TEXT ALOT OF SOMETHING</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Text Box"></textarea>
+
+        <p>WHY AM I YELLING!!!??</p>
+    </div>
+
+    <div>
+    <style>
+        .btn {
+            background-color:blue;
+            color: gray;
+            display: inline-block;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius:  5px;
+            transition:  500ms all ease-in;
+        }
+        .btn:hover {
+ 
+        background-color: silver;
+ 
+        }
+   
+   
+    </style>
+   
+    <h1>JavaScript</h1>
+ 
+    <div class="btn" id="testButton" onclick="testButton">
+       
+        DONT CLICK ME!
+    </div>
+ 
+    <script>
+        var exampleButton = document.getElementById('testButton');
+       
+        exampleButton.addEventListener('click' , (evt) => {
+            alert('BOOM! nothing really happened except this alert. ALERT!');
+            console.log(evt);
+            console.log(evt.target);
+            console.log(evt.target.innerHTML);
+        });
+   
+   
+    </script>
+ 
+    <script src="main.js"></script>
+</div>
+</body>
+</html>
