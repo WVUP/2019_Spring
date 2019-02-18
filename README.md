@@ -19,4 +19,7 @@ https://help.github.com/articles/configuring-a-remote-for-a-fork/
 1. Checkout your master branch
     `git checkout master`
 2. Fetch/pull/push
+    For macOS
     `git fetch upstream && git pull --rebase upstream master && git push`
+    For Windows
+    `git fetch upstream; git pull --rebase upstream master; git push`
