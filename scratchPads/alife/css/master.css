@@ -1,0 +1,53 @@
+#generalLinks {
+    list-style-type: none;
+    font-size: .8em;
+    padding: 0;
+    padding-top: 250px;
+    text-align: right;
+}
+
+#generalLinks li:hover {
+    background-color: 111671;
+    color: white;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.leftSidePics {
+    max-width: 185px;
+}
+
+.leftSidePics:hover {
+    background-color: 111671;
+}
+
+.topMargin {
+    margin-top: 10px;
+}
+
+#handicap {
+    padding-left:15px;
+}
+
+.generalLinks li a:hover, .generalLinks li a:focus, .generalLinks li a:active, a {
+    all: unset;
+    cursor: pointer;
+}
+
+.bellGraphic {
+    position: fixed;
+    bottom: 5%;
+    z-index: -1;
+}
+
+.zIndex-2 {
+    z-index: -2;
+}
+
+.nav-item a {
+    font-size: .8em;
+    color: E3B126;
+    background: linear-gradient(#111683, #4550C8);
+}
