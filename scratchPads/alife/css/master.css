@@ -2,10 +2,14 @@
     list-style-type: none;
     font-size: .8em;
     padding: 0;
-    padding-top: 250px;
     text-align: right;
+    margin-top: -6.5rem;
 }
 
+#generalLinks li a:hover {
+    color: white;
+    text-decoration: none;
+}
 #generalLinks li:hover {
     background-color: 111671;
     color: white;
@@ -16,7 +20,7 @@
 }
 
 .leftSidePics {
-    max-width: 185px;
+    max-width: 190px;
 }
 
 .leftSidePics:hover {
@@ -40,14 +44,130 @@
     position: fixed;
     bottom: 5%;
     z-index: -1;
+    width: 186px;
 }
 
 .zIndex-2 {
-    z-index: -2;
+    z-index: 1;
 }
 
 .nav-item a {
     font-size: .8em;
     color: E3B126;
-    background: linear-gradient(#111683, #4550C8);
+    background: linear-gradient(#4550C8, #111683);
+}
+
+#wvupLogo {
+    border-radius: 0 0 0 25px;
+    position: absolute;
+    right: 0;
+    width: 15rem;
+}
+
+html, body {
+    background-color: 9CBCDA;
+    color: 111683;
+}
+
+#myWVUP {
+    margin-top: 5rem;
+    margin-left: -.55rem;
+}
+
+#printEmailWhatever {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.entries {
+    padding: 1.5rem;
+    padding-right: 1.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.entries h5 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.entries img {
+    width: 150px;
+    height: 150px;
+    float: left;
+    padding-right: .5rem;
+}
+
+.entries p {
+    padding-top: .5rem;
+}
+
+.entries p a {
+    float: inline-end;
+}
+
+.entries p a {
+    text-decoration: none;
+}
+
+#returnToTop {
+    margin: 5% 35%;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.calendar {
+    width: 100%;
+    margin-top: -3.5rem;
+    margin-left: -1rem;
+}
+
+.footer {
+    
+}
+
+.footer li a {
+    border-right: 1px solid black;
+    padding-right: 1rem;
+    text-decoration: underline;
+}
+
+#noBorder {
+    border-right: none;
+}
+
+#myID {
+    margin-left: 1.5rem;
+}
+
+.row p a {
+    text-decoration: underline;
+}
+
+.stupidFooter {
+    margin-top: 1rem;
+    border-radius: 25px;
+    font-size: .8rem;
+    margin-left: 11.9rem;
+    background-color: white;
+}
+
+.changeMe {
+    margin-right: 11rem;
+}
+
+.roundedBottom {
+    border-radius: 0 0 25px 25px;
+}
+
+.hiddenDisplay {
+    display: none;
+}
+
+.nav-item:hover .hiddenDisplay {
+    display: block;
+    z-index: 1;
 }
