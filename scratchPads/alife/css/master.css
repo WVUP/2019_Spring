@@ -125,10 +125,6 @@ html, body {
     margin-left: -1rem;
 }
 
-.footer {
-    
-}
-
 .footer li a {
     border-right: 1px solid black;
     padding-right: 1rem;
@@ -169,5 +165,21 @@ html, body {
 
 .nav-item:hover .hiddenDisplay {
     display: block;
-    z-index: 1;
+    position: fixed;
+    float: left;
+    z-index: 2;
+    background: linear-gradient(#E2B225, #E0CE9D);
 }
+
+.nav-item {
+    background: linear-gradient(#E2B225, #E0CE9D);
+}
+
+.hiddenDisplay li a {
+    background: white;
+}
+
+.hiddenDisplay li a ol li {
+    background: blue;
+}
+
