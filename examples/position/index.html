@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .menu {
+            position: relative;
+            background-color: steelblue;
+        }
+
+        .menu li {
+            display: inline-block;
+            padding: 5px 10px;
+            color: white;
+        }
+
+        .menu li:hover .submenu {
+            display: block;
+        }
+
+        .submenu {
+            display: none;
+            background-color: slategrey;
+            width: 100%;
+            top: 30px;
+            left: 0;
+            padding: 20px 10px;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .content {
+            padding-top: 30px;
+        }
+
+        .box {
+            width: 100%;
+            height: 350px;
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <ul class="list-unstyled" style="margin: 0;">
+                <li>Option 1
+                    <div class="submenu">
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                        <p>Add content</p>
+                    </div>
+                </li>
+                <li>Option 2</li>
+                <li>Option 3</li>
+                <li>Option 4</li>
+                <li>Option 5</li>
+                <li>Option 6</li>
+                <li>Option 7
+                    <div class="submenu">
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                        <p>Different content</p>
+                    </div>
+                </li>
+                <li>Option 8</li>
+            </ul>
+        </div>
+        <div class="row" style="margin:0; height: 100%;">
+            <div class="col col-sm-3" style="background-color: yellow">asdf</div>
+            <div class="col col-sm-9" style="background-color: red; padding:0;">
+                <div class="box">Some content</div>
+                <div class="row" style="min-height: 400px; margin: 0;">
+                    <div class="col col-sm-8" style="background: green;">aasdf</div>
+                    <div class="col col-sm-4" style="background: silver;">werewrwe</div>
+                </div>
+                <div class="box" style="margin: 20px 0">Footer here</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
