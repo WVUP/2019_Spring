@@ -3,17 +3,16 @@ html {
   margin: auto;
   height: 100vh;
   padding: 0;
+  background-color: #9cbcda;
 }
 
 .container {
   margin: 0 auto;
   height: 100vh;
   width: 100vw;
-  position: relative;
   min-height: 100%;
   top: 0;
   left: 0;
-  background-color: #9cbcda;
 }
 
 ul {
@@ -63,19 +62,21 @@ li a:hover:not(.active) {
   position: relative;
   top: 45px;
   left: 150px;
-  height: 70%;
-  border-radius: 9px;
+  height: 100%;
+  border-radius: 4px;
   width: 220px;
   background-color: #e3b11f;
   padding-top: 250px;
+  min-height: 1150px;
 }
 .wrapperBody {
-  top: 396px;
+  top: 395px;
   left: 370px;
   position: absolute;
   width: 879px;
-  height: 600px;
+  height: 940px;
   background-color: white;
+  border-radius: 15px;
 }
 
 .your {
@@ -159,6 +160,13 @@ h2 {
   line-height: 23px;
 }
 
+#p2 {
+  margin: 10px;
+  display: inline-block;
+  width: 60%;
+  line-height: 23px;
+}
+
 #nav {
   z-index: 1;
 }
@@ -187,4 +195,18 @@ h2 {
 #l7:hover {
   color: white;
   background-color: #111683;
+  cursor: pointer;
 }
+
+/*.footer {
+  padding: 15px;
+  text-align: center;
+  border-radius: 15px;
+  height: 105px;
+  position: relative;
+  top: 403px;
+  right: -370px;
+  width: 879px;
+  background-color: white;
+}
+*/
