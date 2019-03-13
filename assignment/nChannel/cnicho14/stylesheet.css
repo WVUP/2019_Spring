@@ -34,11 +34,13 @@ li {
 
 #lis {
   cursor: pointer;
+  position: absolute;
+  left: 230px;
 }
-.meun,
+
 .logo {
   top: 55px;
-  left: 245px;
+  left: 340px;
   background-image: url("images/logo.png");
   background-repeat: no-repeat;
   position: absolute;
@@ -49,7 +51,7 @@ li {
 
 .div1 {
   padding-top: 120px;
-  height: 550px;
+  height: 600px;
   vertical-align: baseline;
   width: 100%;
   background-color: #9cdcf2;
@@ -111,6 +113,8 @@ h2 {
 }
 
 #p1 {
+  width: 50%;
+  padding-left: 225px;
   line-height: 22pt;
   font-size: 20px;
   word-break: break-all;
@@ -118,9 +122,80 @@ h2 {
 }
 
 .bottomContent {
-  padding-top: 70px;
+  top: -12px;
+  left: -105px;
+  padding-top: 30px;
   position: relative;
   height: 285px;
   width: 100%;
   margin: 0 auto;
+}
+.btn {
+  font: bold;
+  padding: 10px 20px 12px 20px;
+  display: inline-block;
+  border-radius: 0px 10px 0px 10px;
+  background: #ee7541;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: grey;
+}
+
+.menu {
+  position: fixed;
+  z-index: 1;
+}
+
+#lis:hover,
+#li2:hover,
+#li3:hover,
+#li4:hover,
+#li5:hover,
+#li6:hover {
+  color: #fff;
+}
+
+#li2 {
+  cursor: pointer;
+  position: absolute;
+  left: 320px;
+}
+
+#li3 {
+  cursor: pointer;
+  position: absolute;
+  left: 399px;
+}
+
+#li4 {
+  cursor: pointer;
+  position: absolute;
+  left: 490px;
+}
+
+#li5 {
+  white-space: nowrap;
+  cursor: pointer;
+  position: absolute;
+  left: 560px;
+}
+
+#li6 {
+  white-space: nowrap;
+  cursor: pointer;
+  position: absolute;
+  left: 660px;
+}
+
+#lis,
+#li2,
+#li3,
+#li4,
+#li5,
+#li6 {
+  font-size: 17px;
 }
