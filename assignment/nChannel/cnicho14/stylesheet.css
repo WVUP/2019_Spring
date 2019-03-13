@@ -1,0 +1,96 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: inline-block;
+  position: relative;
+  min-height: 1000px;
+  width: 100%;
+}
+
+.menu {
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  background-color: #3b3e4b;
+}
+
+.ul {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  height: 100%;
+  left: 620px;
+  top: 70px;
+}
+
+li {
+  list-style: none;
+  color: #7f8291;
+}
+
+#lis {
+  cursor: pointer;
+}
+.meun,
+.logo {
+  top: 55px;
+  left: 245px;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 155px;
+  height: 50%;
+  z-index: 1;
+}
+
+.div1 {
+  padding-top: 120px;
+  height: 500px;
+  vertical-align: baseline;
+  width: 100%;
+  background-color: #9cdcf2;
+}
+
+.div2 {
+  height: 380px;
+  vertical-align: baseline;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 208px;
+  margin-right: 208px;
+}
+.content {
+  padding-top: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.content,
+h1,
+p {
+  text-align: center;
+  color: #fff;
+}
+.orangeBar {
+  position: relative;
+  vertical-align: baseline;
+  height: 98px;
+  background: #ee7541;
+}
+
+.whitebackground {
+  background: white;
+  height: 842px;
+  vertical-align: baseline;
+  width: 100%;
+}
+
+.grey {
+  vertical-align: baseline;
+  height: 590px;
+  background: #f4f4f4;
+}
