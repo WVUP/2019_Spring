@@ -49,14 +49,14 @@ li {
 
 .div1 {
   padding-top: 120px;
-  height: 500px;
+  height: 550px;
   vertical-align: baseline;
   width: 100%;
   background-color: #9cdcf2;
 }
 
 .div2 {
-  height: 380px;
+  height: 480px;
   vertical-align: baseline;
   padding-left: 20px;
   padding-right: 20px;
@@ -80,6 +80,7 @@ p {
   vertical-align: baseline;
   height: 98px;
   background: #ee7541;
+  cursor: pointer;
 }
 
 .whitebackground {
@@ -93,4 +94,33 @@ p {
   vertical-align: baseline;
   height: 590px;
   background: #f4f4f4;
+}
+
+#orangeboi,
+h2 {
+  padding-top: 33px;
+  font-size: 31px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+#header1 {
+  font-size: 35px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#p1 {
+  line-height: 22pt;
+  font-size: 20px;
+  word-break: break-all;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.bottomContent {
+  padding-top: 70px;
+  position: relative;
+  height: 285px;
+  width: 100%;
+  margin: 0 auto;
 }
