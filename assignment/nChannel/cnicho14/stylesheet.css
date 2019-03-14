@@ -14,6 +14,7 @@ html {
   position: absolute;
   height: 120px;
   width: 100%;
+  min-width: 80%;
   background-color: #3b3e4b;
 }
 
@@ -200,8 +201,117 @@ h2 {
 }
 
 .buttonholder {
+  padding-right: 100px;
   width: 100%;
   position: absolute;
   height: 36px;
   bottom: -36px;
+}
+
+.chatnow {
+  position: absolute;
+  font-size: 17px;
+  line-height: 24pt;
+  text-align: center;
+  padding-left: 11px;
+  padding-right: 11px;
+  height: 36px;
+  width: 63px;
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ebad06;
+  text-decoration: none;
+  color: #fff;
+  left: 1000px;
+}
+
+.getqoute {
+  left: 1095px;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  font-size: 17px;
+  line-height: 24pt;
+  text-align: center;
+  border-radius: 0px 0px 4px 4px;
+  padding-left: 11px;
+  padding-right: 11px;
+  height: 36px;
+  width: 69px;
+  background-color: #00b2ee;
+}
+
+.number {
+  text-decoration: none;
+  left: 1195px;
+  background-color: #ee7541;
+  color: #fff;
+  white-space: nowrap;
+  position: absolute;
+  line-height: 24pt;
+  font-size: 17px;
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  height: 36px;
+  width: 105px;
+  padding-left: 11px;
+  padding-right: 11px;
+}
+
+.margincontainer {
+  margin-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
+  width: 940px;
+  position: relative;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#blogo {
+  top: 40px;
+  position: absolute;
+  left: 180px;
+}
+
+.text1 {
+  margin: 0;
+  width: 250px;
+  height: 100%;
+  position: relative;
+}
+
+#h2 {
+  position: absolute;
+  left: 280px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+#h3 {
+  white-space: nowrap;
+  position: absolute;
+  top: 55px;
+  left: 280px;
+  margin-left: 0px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  text-align: left;
+  color: #ee7541;
+  font-size: 12px;
+}
+
+#r1p1 {
+  position: absolute;
+  top: 75px;
+  left: 280px;
+  margin-top: 6px;
+  text-align: left;
+  font-size: 16px;
+  vertical-align: baseline;
+  line-height: 18pt;
+  color: #6b6b6b;
+  width: 240px;
 }
