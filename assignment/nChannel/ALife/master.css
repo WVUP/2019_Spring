@@ -1,0 +1,375 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font: Helvetica;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #3b3e4b;
+    color: #797c8b;
+    z-index: 1;
+}
+
+#logo {
+    position: absolute;
+    left: 25%;
+}
+
+.nav-link {
+    float: right;
+    position: relative;
+    top: 3.5em;
+    right: 25%;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #797c8b;
+}
+
+.nav-link-special {
+    float: right;
+    position: relative;
+    margin-right: 30px;
+    right: -60px;
+    color: #797c8b;
+}
+
+.nav-item-special {
+    margin-left: 5px;
+    position: relative;
+    float: right;
+    right: -12em;
+    padding: 10px;
+    top: 100%;
+    border-radius: 0 0 3px 3px;
+}
+
+.under-nav {
+    text-decoration: none;
+    color: white;
+    font: italic bold 15px Helvetica;
+}
+
+#chat-now {
+    background-color: #ebad06;
+}
+
+#get-a-quote {
+    background-color: #00b2ee;
+}
+
+#phone {
+    background-color: #ee7541;
+}
+
+#search {
+    background-color: #3b3e4b;
+}
+
+#search i {
+    color: #797c8b;
+}
+
+.nav-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.close {
+    color: blue;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#learn-more-background {
+    padding-top: 15em;
+    background-color: #9cdcf2;
+    width: 100%;
+    text-align: center;
+}
+
+#learn-more {
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 1px gray;
+    width: 60%;
+    top: 400px;
+}
+
+.learn-more-btn {
+    background-color: #ee7541;
+    display: inline-block;
+    width: 9%;
+    border-radius: 0px 15px
+}
+
+.fancy-stuff {
+    padding-top: 25px;
+}
+
+#explore {
+    background-color: #ee7541;
+    text-align: center;
+    height: 5em;
+}
+
+#explore div {
+    padding-top: 1.75em;
+}
+
+#explore h2 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#all-integrations h4 {
+    background-color: #22b0e6;
+    color: white;
+    padding: 7px;
+    margin: 0 46%;
+    width: 150px;
+    float: left;
+    text-align: center;
+    border-radius: 0 15px;
+}
+
+#integrations {
+    text-align: center;
+    width: 100%;
+    height: 50em;
+    margin: 75px auto;
+    background-color: white;
+}
+
+#integrations-box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box {
+    margin: 1px;
+    float: left;
+    width: 49%;
+    height: 15em;
+}
+
+.box-img {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.box-header {
+    margin-bottom: 0;
+    text-align: left;
+    float: left;
+    width: 75%;
+    color: #6b6b6b;
+}
+
+.box-subhead {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    float: left;
+    color: #ee7541;
+    width: 75%;
+}
+
+.box-text {
+    color: gray;
+    width: 75%;
+    text-align: left;
+    margin-top: 0;
+}
+
+#explore-app {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 100px;
+    text-align: center;
+}
+
+#explore-box {
+    text-align: right;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    color: gray;
+    float: left;
+}
+
+#explore-header {
+    padding-top: 2em;
+    margin-bottom: 35px;
+}
+
+#explore-btn-box {
+    width: 40%;
+}
+
+.TO-THE-FING-CENTER {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    height: 650px;
+}
+
+.explore-btn {
+    width: 55%;
+    padding: 10px 5px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 35px 15px;
+    background-color: white;
+}
+
+#explore-wires {
+    position: relative;
+    right: -9%;
+    top: -650px;
+}
+
+#explore-pc {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    top: -400px;
+    left: 50px;
+}
+
+#pissingMeOff {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 650px;
+}
+
+.support-me img {
+    width: 100%;
+    height: 572px;
+}
+
+.support-me {
+    height: 572px;
+    color: white;
+}
+
+#how-it-works {
+    width: 100%;
+    height: 450px;
+}
+
+#how-it-works img {
+    position: relative;
+    margin: 50px 0;
+    left: 20%;
+}
+
+.content-1 i {
+    color: orange;
+}
+
+.content-1 {
+    position: relative;
+    color: gray;
+    font-size: 20px;
+    width: 15%;
+    left: 40%;
+    top: -300px;
+    height: 60px;
+}
+
+.content-1 p {
+    margin-bottom: 10px;
+}
+
+.content-2 {
+    color: gray;
+    width: 15%;
+    position: relative;
+    left: 60%;
+    top: -375px;
+}
+
+.content-2 .learn-more-btn {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 25px;
+    border: 5px 5px;
+    width: 50%;
+    left: 25%;
+}
+
+.support-me h2 {
+    position: relative;
+    text-align: center;
+    width: 25%;
+    left: 35%;
+    top: -500px;
+}
+
+.support-me h3 {
+    position: relative;
+    text-align: center;
+    width: 25%;
+    left: 35%;
+    top: -500px;
+}
+
+.support-me h1 {
+    position: relative;
+    text-align: center;
+    width: 25%;
+    left: 35%;
+    top: -500px;
+}
+
+.support-me #circle {
+    font-size: 1.2em;
+    color: lightgray;
+    opacity: .5;
+}
+
+.support-me #support-phone {
+    font-size: .70em;
+    top: -4px;
+    color: white;
+    position: relative;
+    right: 50%;
+}
