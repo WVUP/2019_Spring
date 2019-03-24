@@ -279,14 +279,15 @@ close:focus {
     height: 650px;
 }
 
+.support-me {
+    position: absolute;
+    height: 572px;
+    color: white;
+}
+
 .support-me img {
     width: 100%;
     height: 572px;
-}
-
-.support-me {
-    height: 572px;
-    color: white;
 }
 
 #how-it-works {
@@ -344,7 +345,7 @@ close:focus {
     top: -500px;
 }
 
-.support-me h3 {
+#support-talk {
     position: relative;
     text-align: center;
     width: 25%;
@@ -372,4 +373,35 @@ close:focus {
     color: white;
     position: relative;
     right: 50%;
+}
+
+.support-btn-container {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: -500px;
+}
+
+.support-btnLookinThing {
+    color: blue;
+    width: 45%;
+    margin: 0 auto;
+    float: left;
+}
+
+.btnLookinThing-head {
+    position: relative;
+    top: -500px;
+    left:
+}
+
+.btn-in-btn {
+    position: relative;
+    top: -500px;
+}
+
+.p-in-btn {
+    position: relative;
+    top: -500px;
+    float: left;
 }
