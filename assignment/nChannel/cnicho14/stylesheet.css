@@ -141,7 +141,8 @@ h2 {
   color: #fff;
 }
 
-.btn:hover {
+.btn:hover,
+.btn1:hover {
   background-color: grey;
 }
 
@@ -275,6 +276,12 @@ h2 {
   left: 180px;
 }
 
+#micro {
+  top: 35px;
+  position: absolute;
+  left: 640px;
+}
+
 .text1 {
   margin: 0;
   width: 250px;
@@ -298,7 +305,6 @@ h2 {
   margin-left: 0px;
   margin-top: 6px;
   margin-bottom: 6px;
-  text-align: left;
   color: #ee7541;
   font-size: 12px;
 }
@@ -314,4 +320,153 @@ h2 {
   line-height: 18pt;
   color: #6b6b6b;
   width: 240px;
+}
+
+#header2 {
+  top: 3px;
+  position: absolute;
+  left: 760px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+#header3 {
+  text-align: left;
+  color: #ee7541;
+  font-size: 12px;
+  white-space: nowrap;
+  position: absolute;
+  top: 51px;
+  left: 760px;
+}
+
+#paragraph {
+  top: 70px;
+  left: 758px;
+  width: 240px;
+  line-height: 18pt;
+  vertical-align: baseline;
+  text-align: left;
+  position: absolute;
+  color: #6b6b6b;
+}
+
+#magneto {
+  top: 390px;
+  position: absolute;
+  left: 180px;
+}
+
+#net {
+  top: 385px;
+  position: absolute;
+  left: 640px;
+}
+
+#headertwoone {
+  top: 350px;
+  position: absolute;
+  left: 290px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+#headerthreeone {
+  white-space: nowrap;
+  position: absolute;
+  top: 400px;
+  left: 290px;
+  color: #ee7541;
+  font-size: 12px;
+}
+
+#paragraphoneone {
+  position: absolute;
+  top: 424px;
+  left: 290px;
+  margin-top: 6px;
+  text-align: left;
+  font-size: 16px;
+  vertical-align: baseline;
+  line-height: 18pt;
+  color: #6b6b6b;
+  width: 240px;
+}
+
+#headertwotwo {
+  top: 350px;
+  position: absolute;
+  left: 770px;
+  font-size: 20px;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+#headerthreetwo {
+  text-align: left;
+  color: #ee7541;
+  font-size: 12px;
+  white-space: nowrap;
+  position: absolute;
+  top: 400px;
+  left: 770px;
+}
+
+#paragraphonetwo {
+  top: 415px;
+  left: 770px;
+  width: 240px;
+  line-height: 18pt;
+  vertical-align: baseline;
+  text-align: left;
+  position: absolute;
+  color: #6b6b6b;
+}
+
+.btn1 {
+  position: absolute;
+  left: 690px;
+  bottom: 650px;
+  background-color: #22b0e6;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 0px 10px 0px 10px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 12px 20px;
+}
+
+.containermargin2 {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 20px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+#hugeheader3 {
+  margin: 0 0 35px 0;
+  color: #6b6b6b;
+  font-size: 30px;
+  left: 380px;
+  position: absolute;
+  top: 40px;
+}
+
+#imac {
+  top: 105px;
+  left: 40px;
+  position: absolute;
+  width: 564px;
+}
+
+#slide {
+  position: absolute;
+  top: 143px;
+  left: 77px;
+  width: 489px;
+  height: 275px;
+  z-index: 1;
 }
