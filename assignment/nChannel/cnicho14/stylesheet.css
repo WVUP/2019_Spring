@@ -427,8 +427,8 @@ h2 {
 
 .btn1 {
   position: absolute;
-  left: 690px;
-  bottom: 650px;
+  left: 707px;
+  top: 1540px;
   background-color: #22b0e6;
   font-size: 18px;
   color: #fff;
@@ -468,5 +468,69 @@ h2 {
   left: 77px;
   width: 489px;
   height: 275px;
-  z-index: 1;
+}
+
+.whitecontainer {
+  width: 1200px;
+  height: 380px;
+}
+.contain {
+  margin-left: 210px;
+  margin-right: 210px;
+  padding: 0 20px;
+}
+
+#blue {
+  position: absolute;
+  top: 2320px;
+  left: 370px;
+}
+
+.fas {
+  top: 2340px;
+  position: absolute;
+  right: 880px;
+  color: #ee7541;
+  font-size: 25px;
+}
+
+#bluepart {
+  top: 2325px;
+  left: 720px;
+  position: absolute;
+  color: #6b6b6b;
+}
+
+#check2 {
+  top: 2420px;
+}
+
+#bluepart2 {
+  left: 720px;
+  top: 2408px;
+  color: #6b6b6b;
+  position: absolute;
+}
+
+#check3 {
+  top: 2510px;
+}
+
+#bluepart3 {
+  left: 720px;
+  top: 2500px;
+  color: #6b6b6b;
+  position: absolute;
+}
+
+.orangeboy {
+  width: 100%;
+  height: 100%;
+  background-color: #ee7541;
+}
+
+#backgroundorange {
+  min-height: 500px;
+  min-width: 1650px;
+  background-repeat: no-repeat;
 }
