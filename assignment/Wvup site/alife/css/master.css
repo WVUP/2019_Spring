@@ -165,8 +165,10 @@ html, body {
 
 .nav-item:hover .hiddenDisplay {
     display: block;
-    position: fixed;
+    position: absolute;
+    width: 100%;
     float: left;
+    left: 0;
     z-index: 2;
     background: linear-gradient(#E2B225, #E0CE9D);
 }
@@ -176,10 +178,23 @@ html, body {
 }
 
 .hiddenDisplay li a {
-    background: white;
+    background: blue;
+    color: white;
 }
 
 .hiddenDisplay li a ol li {
     background: blue;
 }
 
+.nav {
+    position: relative;
+}
+
+.nav-item ul {
+    float: left;
+}
+.nav-item ul li {
+    margin: 10px;
+    background: gold;
+    color: blue;
+}
