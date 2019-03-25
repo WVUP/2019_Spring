@@ -1,0 +1,305 @@
+body{
+    text-align: center;
+    background-color: rgb(156,188,218);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-bar{
+    margin: 0 auto;
+    width: 60%;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(69,80,200),rgb(17,22,131));
+    width: 100%;
+  }
+  
+.nav-bar li a {
+    float: left;
+    display: block;
+    margin-top: 10px;
+    color: rgb(227,177,56);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: .7vw;
+    text-align: justify;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+.nav-bar li a:hover {
+    background-color: rgb(91,95,170);
+    background-size: 15px;
+    color: white;
+  }
+
+li a.active{
+    background-color: rgb(227,177,56);
+    color: rgb(27,34,145);
+}
+  
+#wvupLogo{
+    position: absolute;
+    float: left;
+    right: 20.3%;
+    width: 14%;
+    height: auto;
+}
+
+.centeredPage{
+    display: flex;
+    width: 60%;
+    min-height: 100%;
+    background-image: linear-gradient(rgb(227,181,48),rgb(224,206,155));
+    margin: 0px auto;
+    justify-content: flex-start;
+}
+
+.leftContainter{
+    flex: 1;
+    float: left;
+    width: 25%;
+    background-image: linear-gradient(rgb(227,181,48),rgb(224,206,155));
+}
+
+#graduationCap{
+    position: absolute;
+    float: left;
+    left: 20.23%;
+    width: 10%;
+    height: auto;
+}
+
+.quickLinks{
+    overflow: hidden;
+    list-style: none;
+    margin-top: 150px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.quickLinks li{
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+
+.quickLinks li a:hover{
+    color: white;
+    background-color: blue;
+}
+
+.leftColumnButtons{
+    list-style: none;
+}
+
+.linkButtons{
+    justify-content: center;
+    height: 60px;
+    width: 90%;
+    margin: 10 0 auto;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linkButtons:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#degreePrograms{
+    background-color: rgb(206,42,42);
+}
+
+#giveNow{
+    background-color: rgb(227,94,39);
+}
+
+#communityClasses{
+    background-color: rgb(89,191,158);
+}
+
+#careerCoach{
+    background-color: rgb(216,158,43);
+}
+
+#requestRicky{
+    background-color: rgb(62,127,190);
+}
+
+#studentNewspaper{
+    background-color: rgb(33,29,89);
+}
+
+.mainSection{
+    flex: 4;
+    float: left;
+    width: 75%;
+    height: auto; 
+}
+
+#genericCoverPhoto{
+    height: auto;
+    width: 100%;
+    box-shadow: 0 10px 15px rgb(82, 82, 82);
+}
+
+.backgroundSpace{
+    flex: 1;
+    background-color: white;
+    float: left;
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+#visitSite{
+    margin-top: 3%;
+    width: 65%;
+    height: auto;
+}
+.calenderContainer{
+    position: relative;
+    margin-right: 2%;
+    z-index: 1;
+    margin-top: -10%;
+    min-height: 1000px;
+    width: 25%;
+    float: right;
+    background-image: linear-gradient(rgb(105, 165, 221),rgb(220,232,244));
+    border-radius: 25px;
+}
+
+.calenderContainer h4{
+    text-align: center;
+    font: bold;
+    color: rgb(27,34,145);
+}
+
+.calenderContainer ul{
+    margin-left: 8%;
+    padding-right:0;
+    border-left: 5px solid rgb(27,34,145);
+}
+.calenderContainer ul li{
+    color: rgb(27,34,145);
+    text-align: left;
+    margin-left: -20%;
+    list-style: none;
+}
+
+.eventName{
+    text-indent: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.eventName a:hover{
+    color: white;
+    background-color:rgb(27,34,145) 
+}
+
+.eventLocation{
+    text-indent: 15px;
+    font-style: italic;
+}
+
+.socialMediaButtons{
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    border: none;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.backgroundSpace h3{
+    position: relative;
+    padding-top: 15px;
+    margin: 0 4%;
+    padding-bottom: 2%;
+    text-align: left; 
+}
+
+.article p{
+    color: grey;
+    padding-right: 30%;
+    padding-bottom: 25px;
+    margin-left: 22%;
+    text-align: left;
+}
+
+#postImage{
+    float: left;
+    margin-left: 2%;
+    width: 18%;
+    height: auto;
+}
+
+#oldEntry{
+    margin-left: -80%;
+}
+
+.bottomCenter{
+    height: 250px;
+    margin-top: 5%;
+    padding-top: 25px;
+    border-radius: 10px;
+    background-color: white;
+    color: grey;
+}
+
+.bottomCenter ul{
+    margin: 15px 50px auto;
+    padding-bottom: 20px;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.bottomCenter ul li{
+    float: left;
+    display: block;
+    margin: 0 5px auto;
+    padding: 0;
+    color: rgb(227,177,56);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: .7vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.bottomCenter li a{
+    text-decoration-line: underline;
+}
+
+.bottomCenter p{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+    
+    color: gray;
+}

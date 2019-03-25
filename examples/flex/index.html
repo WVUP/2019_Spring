@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flex</title>
+    <style>
+        html, body { padding: 0; margin: 0;}
+        .container {
+            display: flex;
+            height: 100%;
+            flex-direction: row;
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+            justify-content: space-evenly;
+        }
+        .item {
+            flex: 1;
+            /* Use fixed sizing when you want to distribute space */
+            /* width: 400px;
+            height: 400px; */
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item" style="background: blue;">One</div>
+        <div class="item" style="background: red; flex: 2;">Two</div>
+        <div class="item" style="background: green;">Three</div>
+
+    </div>
+    
+    
+</body>
+</html>

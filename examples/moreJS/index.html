@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More JS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .parent {
+            background-color: silver;
+        }
+        .child {
+            display: none;
+            /* overflow: hidden;
+            height: 0;
+            transition: all 300ms ease-in; */
+        }
+        .parent:hover .child {
+            display: block;
+            /* height: 150px; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col col-sm-12 col-md-5">
+                <form name="myForm">
+                        
+                    <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" id="staticEmail" name="email" value="email@example.com">
+                        </div>
+                    </div>
+        
+                    <div class="form-group row">
+                        <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                        <div class="col-sm-10">
+                            <input type="password" class="form-control" id="inputPassword" required name="password" placeholder="Password">
+                            <span id="passwordValidation"></span>
+                        </div>
+                    </div>
+                    
+                    <div class="btn btn-primary" id="buildContainer">
+                        Get and build
+                    </div>
+
+                    <input class="btn btn-success" type="submit" value="SUBMIT">
+                    
+                </form>
+            </div>
+            <div class="col col-sm-12 col-md-7">
+                <div id="display"></div>
+            </div>
+        </div>
+
+        <div id="test" class="parent">
+            I have content
+            <div class="child">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, numquam in perferendis reiciendis, ex repudiandae repellendus cupiditate obcaecati dolor repellat illo, vitae sed ea aliquid velit minima ipsa! Blanditiis dolores tempora minima quibusdam eligendi repellat at neque ipsum alias cum!
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+    
+    <script src="site.js"></script>
+</body>
+</html>
