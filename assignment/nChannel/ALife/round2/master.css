@@ -1,0 +1,149 @@
+#nav-topRow, #nav-secondRow {
+    background-color: #3b3e4b;
+}
+
+.nav-link {
+    color: #7f828a;
+    padding: 0;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+#nav-container {
+    padding: 0;
+    margin: 0;
+}
+
+#nav-contact, #nav-support {
+    padding-right: 1rem;
+}
+
+#nav-contact {
+    padding-left: 4.75rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#nav-thirdRow {
+    margin-left: -15%;
+    background-color: #9cdcf2;
+}
+
+.btn-chat, .btn-quote, .btn-phone, .btn-search {
+    color: white;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.btn-chat {
+    background-color: #ebad06;
+}
+
+.btn-quote {
+    background-color: #00b2ee;
+}
+
+.btn-phone {
+    background-color: #ee7541;
+}
+
+.btn-search {
+    color: #7f8291;
+    background-color: #3b3e4b;
+    font-size: 24px;
+}
+
+#chat-me {
+    margin-left: 7%;
+}
+
+#chat-me, #quote-me, #phone-me {
+    margin-right: 2%;
+}
+
+#nav-secondRow .nav-item {
+    padding-right: 1.7rem;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 4rem 7rem;
+    background-color: transparent;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#learnMore-container {
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#learnMore-btn {
+    background-color: #ee7541;
+}
+
+.my-btn {
+    border-radius: 0 15px 0 15px;
+    color: white;
+}
+
+#fluid-learnmore {
+    background-color: #9cdcf2;
+}
+
+#learMore-imgContainer img {
+    margin-top: -97px;
+}
+
+#empty-container {
+    height: 200px;
+    margin-top: 125px;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png");
+}
+
+#explore-mostPopular {
+    text-align: center;
+    color: white;
+    background-color: #ee7541;
+    margin: 0;
+    padding: 1rem;
+}
+
+.integrations-header, .integrations-subhead, .integrations-text {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.integrations-subhead {
+    font-size: .75rem;
+    color: #ee7541;
+}
+
+.integrations-header {
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+.integrations-text {
+    color: #6b6b6b;
+}
+
+.integrations-row {
+    padding-top: 1.5rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#allIntegrations-btn {
+    background-color: #22b0e6;
+    margin: 3rem auto;
+}
