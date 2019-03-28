@@ -161,6 +161,7 @@
     margin-bottom: 2rem;
     margin-left: -3rem;
     padding: 12px;
+    border: 2px solid #e8e8e8;
 }
 
 .explore-btn:hover, .explore-btn:focus {
@@ -255,4 +256,92 @@
 .align-left {
     text-align: left;
     color: #6b6b6b;
+}
+
+#img-icons {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.icon {
+    margin: 0 35px;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+.half {
+    width: 44%;
+    margin: 0 3%;
+    float: left;
+}
+
+.bubble {
+    position: relative;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/quote.png");
+    background-position: 15px 15px;
+    background-color: #22b0e6;
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.bubble::after {
+    content: '';
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    display: block;
+    border-right: 45px solid #22b0e6;
+    border-bottom: 40px solid transparent;
+}
+
+.person {
+    color: #6b6b6b;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.person-head, .person-job, .case-study {
+    padding: 0;
+    margin: 0; 
+}
+
+.person-img {
+    float: right;
+    margin-left: 20px;
+}
+
+.case-study {
+    text-decoration: underline;
+}
+
+
+.sponsor-container {
+    display: inline-block;
+    width: 24%;
+    box-sizing: border-box;
+    height: auto;
+    max-height: 100px;
+    max-width: 200px;
+    margin: 8px;
+    margin-top: 25px;
+}
+
+.sponsor-container img {
+    display: block;
+    max-width: 200px;
+    max-height: 100px;
+    float: left;
+}
+
+#footer {
+    background-color: #3b3e4b;
+    color: white;
+}
+
+.text-left {
+    text-align: left;
 }
