@@ -1,4 +1,5 @@
-#nav-topRow, #nav-secondRow {
+#nav-topRow,
+#nav-secondRow {
     background-color: #3b3e4b;
 }
 
@@ -17,7 +18,8 @@
     transition: top .5s;
 }
 
-#nav-contact, #nav-support {
+#nav-contact,
+#nav-support {
     padding-right: 1rem;
 }
 
@@ -38,7 +40,10 @@
     background-color: transparent;
 }
 
-.btn-chat, .btn-quote, .btn-phone, .btn-search {
+.btn-chat,
+.btn-quote,
+.btn-phone,
+.btn-search {
     color: white;
     border-radius: 0 0 .25rem .25rem;
 }
@@ -65,7 +70,9 @@
     margin-left: 7%;
 }
 
-#chat-me, #quote-me, #phone-me {
+#chat-me,
+#quote-me,
+#phone-me {
     margin-right: 2%;
 }
 
@@ -120,7 +127,9 @@
     padding: 1rem;
 }
 
-.integrations-header, .integrations-subhead, .integrations-text {
+.integrations-header,
+.integrations-subhead,
+.integrations-text {
     text-align: left;
     padding-left: 2rem;
 }
@@ -155,7 +164,8 @@
 #explore-app-header {
     background-color: #f4f4f4;
     color: #6b6b88;
-    padding: 2rem;;
+    padding: 2rem;
+    ;
 }
 
 .explore-btn {
@@ -168,7 +178,8 @@
     border: 2px solid #e8e8e8;
 }
 
-.explore-btn:hover, .explore-btn:focus {
+.explore-btn:hover,
+.explore-btn:focus {
     color: #22b0e6;
 }
 
@@ -247,7 +258,8 @@
     border: 3px solid white;
 }
 
-#support-right p, #support-left p {
+#support-right p,
+#support-left p {
     margin-left: -15px;
     text-align: left;
 }
@@ -308,9 +320,11 @@
     margin-top: 25px;
 }
 
-.person-head, .person-job, .case-study {
+.person-head,
+.person-job,
+.case-study {
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
 .person-img {
@@ -358,7 +372,11 @@
     color: #ee7541;
 }
 
-.fa-facebook-f, .fa-twitter, .fa-linkedin-in, .fa-youtube, .fa-google-plus-g {
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-youtube,
+.fa-google-plus-g {
     color: #3b3e4b;
     padding-top: .25rem;
 }
