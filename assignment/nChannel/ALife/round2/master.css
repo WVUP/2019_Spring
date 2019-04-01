@@ -1,0 +1,409 @@
+#nav-topRow,
+#nav-secondRow {
+    background-color: #3b3e4b;
+}
+
+.nav-link {
+    color: #7f828a;
+    padding: 0;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+#nav-container {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    z-index: 2;
+    transition: top .5s;
+}
+
+#nav-contact,
+#nav-support {
+    padding-right: 1rem;
+}
+
+#nav-contact {
+    padding-left: 4.75rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#nav-thirdRow {
+    margin-left: -15%;
+    background-color: transparent;
+}
+
+.btn-chat,
+.btn-quote,
+.btn-phone,
+.btn-search {
+    color: white;
+    border-radius: 0 0 .25rem .25rem;
+}
+
+.btn-chat {
+    background-color: #ebad06;
+}
+
+.btn-quote {
+    background-color: #00b2ee;
+}
+
+.btn-phone {
+    background-color: #ee7541;
+}
+
+.btn-search {
+    color: #7f8291;
+    background-color: #3b3e4b;
+    font-size: 24px;
+}
+
+#chat-me {
+    margin-left: 7%;
+}
+
+#chat-me,
+#quote-me,
+#phone-me {
+    margin-right: 2%;
+}
+
+#nav-secondRow .nav-item {
+    padding-right: 1.7rem;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding: 4rem 7rem;
+    background-color: transparent;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+#learnMore-container {
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#learnMore-btn {
+    background-color: #ee7541;
+}
+
+.my-btn {
+    border-radius: 0 15px 0 15px;
+    color: white;
+}
+
+#fluid-learnmore {
+    background-color: #9cdcf2;
+    padding-top: 8rem;
+}
+
+#learMore-imgContainer img {
+    margin-top: -97px;
+}
+
+#empty-container {
+    height: 200px;
+    margin-top: 125px;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/dot-pat.png");
+}
+
+#explore-mostPopular {
+    text-align: center;
+    color: white;
+    background-color: #ee7541;
+    margin: 0;
+    padding: 1rem;
+}
+
+.integrations-header,
+.integrations-subhead,
+.integrations-text {
+    text-align: left;
+    padding-left: 2rem;
+}
+
+.integrations-subhead {
+    font-size: .75rem;
+    color: #ee7541;
+}
+
+.integrations-header {
+    color: #6b6b6b;
+    font-weight: bold;
+}
+
+.integrations-text {
+    color: #6b6b6b;
+}
+
+.integrations-row {
+    padding-top: 1.5rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#allIntegrations-btn {
+    background-color: #22b0e6;
+    margin: 3rem auto;
+}
+
+#explore-app-header {
+    background-color: #f4f4f4;
+    color: #6b6b88;
+    padding: 2rem;
+    ;
+}
+
+.explore-btn {
+    background-color: white;
+    color: #6b6b86;
+    width: 110%;
+    margin-bottom: 2rem;
+    margin-left: -3rem;
+    padding: 12px;
+    border: 2px solid #e8e8e8;
+}
+
+.explore-btn:hover,
+.explore-btn:focus {
+    color: #22b0e6;
+}
+
+#explore-left-boxes {
+    z-index: 1;
+}
+
+#explore-background {
+    background-color: #f4f4f4;
+}
+
+#explore-wires img {
+    position: absolute;
+    height: 85%;
+    top: 1rem;
+    left: -2.5rem;
+}
+
+#explore-computer img {
+    position: absolute;
+    width: 125%;
+    margin-left: -20rem;
+    margin-top: -2.5em;
+}
+
+#how-it-works {
+    color: #7f7f7b;
+}
+
+#how-it-works-middle i {
+    float: left;
+    color: #ee7541;
+}
+
+#how-it-works-middle p {
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+#exploreMore-btn {
+    background-color: #22b0e6;
+    margin-bottom: 2rem;
+}
+
+#right-head {
+    font-weight: bold;
+}
+
+#right-text {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+#cus-support {
+    color: white;
+    padding: 0;
+    width: 100%;
+    height: 40rem;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/orange-back.jpg");
+    background-size: cover;
+}
+
+#cus-support-jumbotron {
+    padding: 200px;
+}
+
+#cus-support-phone {
+    padding-bottom: 2rem;
+}
+
+.support-btn {
+    background-color: #22b0e6;
+}
+
+.clear-btn {
+    border: 3px solid white;
+}
+
+#support-right p,
+#support-left p {
+    margin-left: -15px;
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
+    color: #6b6b6b;
+}
+
+.align-left {
+    text-align: left;
+    color: #6b6b6b;
+}
+
+#img-icons {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.icon {
+    margin: 0 35px;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+.half {
+    width: 44%;
+    margin: 0 3%;
+    float: left;
+}
+
+.bubble {
+    position: relative;
+    background-image: url("https://www.nchannel.com/wp-content/themes/nchannel/images/quote.png");
+    background-position: 15px 15px;
+    background-color: #22b0e6;
+    background-repeat: no-repeat;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.bubble::after {
+    content: '';
+    height: 0;
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    display: block;
+    border-right: 45px solid #22b0e6;
+    border-bottom: 40px solid transparent;
+}
+
+.person {
+    color: #6b6b6b;
+    text-align: right;
+    margin-top: 25px;
+}
+
+.person-head,
+.person-job,
+.case-study {
+    padding: 0;
+    margin: 0;
+}
+
+.person-img {
+    float: right;
+    margin-left: 20px;
+}
+
+.case-study {
+    text-decoration: underline;
+}
+
+
+.sponsor-container {
+    display: inline-block;
+    width: 24%;
+    box-sizing: border-box;
+    height: auto;
+    max-height: 100px;
+    max-width: 200px;
+    margin: 8px;
+    margin-top: 25px;
+}
+
+.sponsor-container img {
+    display: block;
+    max-width: 200px;
+    max-height: 100px;
+    float: left;
+}
+
+#footer {
+    background-color: #3b3e4b;
+    color: white;
+}
+
+.footer-connect {
+    margin-left: 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+#footer-text-icon {
+    color: #ee7541;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-linkedin-in,
+.fa-youtube,
+.fa-google-plus-g {
+    color: #3b3e4b;
+    padding-top: .25rem;
+}
+
+.footer-date {
+    color: #6b6c6e;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.footer-link {
+    text-decoration: underline;
+}
+
+.footer-text {
+    margin-bottom: .25rem;
+}
+
+.footer-list-item {
+    list-style: none;
+    width: 50%;
+    float: left;
+    color: #6b6e7a;
+    white-space: nowrap;
+    padding-bottom: 10px;
+}
+
+#footer-list {
+    margin-left: -35px;
+}
