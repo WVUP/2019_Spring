@@ -8,15 +8,15 @@
   <body>
     <form name="forms">
       <input
-        required
+        
         id="firstNames"
         type="text"
-        name="firstinput"
+        name="myinput"
         placeholder="Enter first name"
       />
       <br />
       <input
-        required
+        
         id="lastName"
         type="text"
         name="lastName"
@@ -33,7 +33,7 @@
       />
       <br />
       <input
-        required
+        
         type="email"
         id="myEmail"
         name="email"
@@ -41,7 +41,7 @@
         pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         size="30"
       />
-      <input type="submit" id="subbtn" onclick="buildHtml()" />
+      <input type="submit" id="subbtn" onclick="vaildate()" />
     </form>
     <div id="myContent"></div>
     <script src="main.js"></script>

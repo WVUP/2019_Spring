@@ -3,13 +3,27 @@ mybutton.addEventListener("click", evnt => {
   evnt.preventDefault();
 });
 
-//function vaildate() {
-// var firstName = document.forms["forms"]["firstinput"];
-// if (firstName.value == "") {
-//   name.focus();
-//   return false;
-//  }
-//}
+function vaildate() {
+  var firstName = document.getElementById("firstNames").value;
+  var lastName = document.getElementById("lastName").value;
+  var password = document.getElementById("password").value;
+  var email = document.getElementById("myEmail").value;
+  if (firstName === "") {
+    alert("Please enter your name with no numbers");
+    return false;
+  } else if (lastName === "") {
+    alert("Last name must be filled out");
+    return false;
+  } else if (password === "") {
+    alert("password must be filled out");
+    return false;
+  } else if (email === "") {
+    alert("Email must be filled out");
+    return false;
+  } else {
+    buildHtml();
+  }
+}
 
 function buildHtml() {
   var message1 = document.getElementById("myEmail");
