@@ -1,0 +1,203 @@
+#rightSide {
+    padding-left: 100px;
+}
+
+#bottomSection {
+    height: 600px;
+    width: 1100px;
+    background-color: #c00d0d;
+    border-radius: 0 0 25px 25px;
+    box-shadow: -12px 5px 0px 5px #600707;
+}
+
+img {
+    margin-top: 50px;
+}
+
+#extendTop {
+    padding-top: 30px;
+}
+
+#terminalCase {
+    background-color: #b0b0b0;
+    padding: .1rem 2rem;
+}
+
+.centerMe {
+    text-align: center;
+}
+
+#terminalTop {
+    padding-top: 10px;
+}
+
+.topCircle1 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 25px 0 auto;
+    background-color: #e65050;
+    border: 1px solid black;
+}
+
+.topCircle2 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 auto 0 0;
+    background-color: #e65050;
+    border: 1px solid black;
+}
+
+.jumbotron {
+    padding: .5rem 3rem;
+    border-radius: 1.5rem;
+}
+
+#cutOff {
+    content: '';
+    height: 0;
+    position: absolute;
+    display: block;
+    border-right: 60px solid transparent;
+    border-bottom: 70px solid #c00d0d;
+    left: 12px;
+    bottom: 188px;
+}
+
+#terminalScreen {
+    margin-top: 15px;
+    height: 15rem;
+    width: 100%;
+    border: 4px solid black;
+}
+
+#terminalButton {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#bc0c0c, #8e0101);
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+#vents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.terminalVent {
+    width: 40%;
+    height: 6px;
+    background-color: #494949;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+#blueButton {
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(#2b74f8, #0733e6);
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.75);
+}
+
+#leftMiddle {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#leftType {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#2ac50a, #147c04);
+    margin: 0 25px 0 auto;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#rightType {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#fd914e, #f66f23);
+    margin: 0 auto 0 0;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#pkmnIdBorder {
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 75px;
+    width: 160px;
+    border-radius: 15px;
+    background: linear-gradient(#006b62, #00625a, #004846);
+    box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+#pkmnIdBox {
+    border-radius: 15px;
+    height: 90%;
+    margin-top: 3px;
+    margin-left: -18px;
+    width: 135%;
+}
+
+#arrowButtonThing {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.arrows {
+    background: #222222;
+    font-size: 2.5rem;
+    color: #111111;
+    padding: 0;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+}
+
+#upArrow {
+    border-radius: 5px 5px 0 0;
+    padding-top: 5px;
+    box-shadow: -3px 0px 0px 0px rgba(0,0,0,0.75);
+}
+
+#leftArrow {
+    border-radius: 5px 0 0 5px;
+    box-shadow: -2px 1px 0px 1px rgba(0,0,0,0.75);
+}
+
+#midArrow {
+}
+
+#rightArrow {
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.75);
+}
+
+#downArrow {
+    border-radius: 0 0 5px 5px;
+    box-shadow: -2px 1px 0px 1px rgba(0,0,0,0.75);
+}
+
+#downArrow i {
+    margin-top: -10px;
+    
+}
+
+#leftArrow i, #rightArrow i {
+    margin-top: -3px;
+}
+
+#midArrow {
+    color: #1d1d1d;
+    font-size: 1.5em;
+}
+
+#midArrow i {
+    margin-top: 5px;
+}
