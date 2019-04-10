@@ -188,6 +188,51 @@
   border-radius: 12px;
 }
 
+.gamepadarrows {
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  background-color: #484848;
+  top: -130px;
+  right: 40px;
+}
+
+.middlechunck {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  right: 0px;
+  top: 40px;
+  background-color: #484848;
+}
+
+.leftarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  right: 40px;
+  background-color: #484848;
+}
+
+.rightarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  left: 40px;
+  top: -39px;
+  background-color: #484848;
+}
+
+.bottomarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  top: -40px;
+  background-color: #484848;
+}
+
 #bulb {
   position: relative;
   left: 45px;
