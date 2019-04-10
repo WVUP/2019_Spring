@@ -171,9 +171,6 @@ img {
     box-shadow: -2px 1px 0px 1px rgba(0,0,0,0.75);
 }
 
-#midArrow {
-}
-
 #rightArrow {
     border-radius: 0 5px 5px 0;
     box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.75);
@@ -201,3 +198,94 @@ img {
 #midArrow i {
     margin-top: 5px;
 }
+
+#pokeDexMid {
+    margin-left: 25px;
+}
+
+#largeBrightRed {
+    width: 100%;
+    height: 68%;
+    background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+.smallDarkRed {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to right, #770808, #be0d0d, #730808);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+#smallBrightRed {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+#pokeDexLeft {
+    margin-left: 25px;
+}
+
+#movesetSection {
+    height: 30%;
+    box-shadow: inset 0px 0px 15px 7px #59b438;
+    border: 4px solid #950909;
+    background-color: #6dea40;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#statSection {
+    width: 80%;
+    height: 25%;
+    background: linear-gradient(to bottom, #2b73f8, #0734e6);
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: -3px 3px 0px 3px #032b70;
+}
+
+#smallGrayButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 28px 25px 0 50px;
+    background-color: #005e58;
+    box-shadow: -1px 1px 0px 1px #022423;
+    float: left;
+}
+
+#smallYellowButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 28px 25px 0 auto;
+    background-color: #ffca00;
+    box-shadow: -1px 1px 0px 1px #022423;
+    float: left;
+}
+
+#wideGreenButton {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#2ac50a, #147c04);
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    float: right;
+}
+
+#wideOrangeButton {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#fd914e, #f66f23);
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
