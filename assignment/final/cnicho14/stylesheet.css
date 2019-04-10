@@ -143,6 +143,49 @@
 
 .greenboy {
   position: relative;
+  top: -20px;
+  height: 16px;
+  width: 80px;
+  left: 140px;
+  background-color: green;
+  padding: 1px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.orangeboy {
+  position: relative;
+  top: -44px;
+  height: 16px;
+  left: 230px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #484848;
+  padding: 1px;
+}
+
+.idcontainer {
+  position: relative;
+  height: 80px;
+  width: 200px;
+  left: 130px;
+  top: -15px;
+  border-radius: 13px;
+  background-color: #484848;
+  padding: 3px;
+}
+
+.whiteid {
+  position: relative;
+  height: 60px;
+  width: 180px;
+  top: 10px;
+  left: 8px;
+  background-color: white;
+  border-radius: 12px;
 }
 
 #bulb {
