@@ -219,7 +219,7 @@ img {
     box-shadow: 0px 0px 12px 5px #740808;
 }
 
-#smallBrightRed {
+.smallBrightRed {
     width: 100%;
     height: 10%;
     background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
@@ -277,7 +277,7 @@ img {
     background: linear-gradient(#2ac50a, #147c04);
     margin-top: 25px;
     box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
-    float: right;
+    float: left;
 }
 
 #wideOrangeButton {
@@ -287,5 +287,112 @@ img {
     background: linear-gradient(#fd914e, #f66f23);
     margin-top: 25px;
     box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    float: right;
 }
 
+#navContainer {
+    text-align: center;
+}
+
+#downId {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #a7a7a7, #515151);
+    border-radius: 5px 0 0 5px;
+    color: #780808;
+    font-size: 2.5rem;
+    border: 1px solid #303030;
+    box-shadow: -2px 1px 0px 1px #303030;
+}
+
+#upId {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #a7a7a7, #515151);
+    border-radius: 0 5px 5px 0;
+    color: #780808;
+    font-size: 2.5rem;
+    border: 1px solid #303030;
+    box-shadow: -2px 1px 0px 1px #303030;
+}
+
+#clearFilter {
+    width: 40px;
+    height: 40px;
+    background-color: #fdc228;
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px #4e2801;
+    border: 1px solid #4e2801;
+}
+
+#clearFilter i {
+    font-size: 2.5em;
+    color: #780808;
+    margin-left: -10px;
+}
+
+#clearFilter:hover {
+    transition: box-shadow .5s;
+    box-shadow: 0px 0px 8px 8px #e5cc72;
+}
+
+#bigOrangeContainer {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bigOrangeBox {
+    margin-top: 10px;   
+    height: 60px;
+    background-color: #ffc900;
+    border: 3px solid #950909;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 25px 5px rgba(226,110,5,1);
+}
+
+#bigOrangeLeft {
+    margin-right: 6px;
+}
+
+#bigOrangeRight {
+    margin-left: 6px;
+}
+
+#test {
+    -webkit-border-top-left-radius: 30px;
+    color: red;
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+#topSection {
+    width: 1100px;
+    height: 125px;
+    box-shadow: -12px 5px 0px 5px #600707;
+    border-radius: 25px 0 0 0;
+}
+
+#leftTopSection {
+    background-color: #8b0000;
+    border-radius: 25px 0 0 0;
+}
+
+#midTopSection .smallBrightRed, #midTopSection .smallDarkRed {
+    height: 50%;
+    margin-left: 35px;
+}
+
+#circleContainer {
+}
+
+#largeBlueCircle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 25px;
+    margin-top: 10px;
+}
