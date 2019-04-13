@@ -163,30 +163,31 @@ img {
 #upArrow {
     border-radius: 5px 5px 0 0;
     padding-top: 5px;
-    box-shadow: -3px 0px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: -3px 0px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
 #leftArrow {
     border-radius: 5px 0 0 5px;
-    box-shadow: -2px 1px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
 }
 
 #rightArrow {
     border-radius: 0 5px 5px 0;
-    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.75);
 }
 
 #downArrow {
     border-radius: 0 0 5px 5px;
-    box-shadow: -2px 1px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
 }
 
 #downArrow i {
     margin-top: -10px;
-    
+
 }
 
-#leftArrow i, #rightArrow i {
+#leftArrow i,
+#rightArrow i {
     margin-top: -3px;
 }
 
@@ -197,10 +198,6 @@ img {
 
 #midArrow i {
     margin-top: 5px;
-}
-
-#pokeDexMid {
-    margin-left: 25px;
 }
 
 #largeBrightRed {
@@ -334,7 +331,9 @@ img {
     margin-left: -10px;
 }
 
-#clearFilter:hover {
+#clearFilter:hover,
+#downId:hover,
+#upId:hover {
     transition: box-shadow .5s;
     box-shadow: 0px 0px 8px 8px #e5cc72;
 }
@@ -345,12 +344,12 @@ img {
 }
 
 .bigOrangeBox {
-    margin-top: 10px;   
+    margin-top: 10px;
     height: 60px;
     background-color: #ffc900;
     border: 3px solid #950909;
     border-radius: 15px;
-    box-shadow: inset 0px 0px 25px 5px rgba(226,110,5,1);
+    box-shadow: inset 0px 0px 25px 5px rgba(226, 110, 5, 1);
 }
 
 #bigOrangeLeft {
@@ -368,6 +367,7 @@ img {
     height: 100px;
     width: 100px;
 }
+
 #topSection {
     width: 1100px;
     height: 125px;
@@ -380,19 +380,201 @@ img {
     border-radius: 25px 0 0 0;
 }
 
-#midTopSection .smallBrightRed, #midTopSection .smallDarkRed {
+#midTopSection .smallBrightRed,
+#midTopSection .smallDarkRed {
     height: 50%;
     margin-left: 35px;
 }
 
-#circleContainer {
+#imgContainer img {
+    width: 1100px;
+    margin-top: -18px;
+    margin-left: -27px;
 }
 
-#largeBlueCircle {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: white;
+#pokeDexMid {
+    margin-left: 14px;
+}
+
+#topSection {
+    width: 1100px;
+    background-color: #c00d0d;
+}
+
+#topPokeDexLeft {
     margin-left: 25px;
-    margin-top: 10px;
+}
+
+#topPokeDexMid {
+    margin-left: 14px;
+}
+
+#topPokeDexMid div {
+    height: 50%;
+}
+
+#topPokeDexMid {
+    z-index: 5;
+}
+
+#blockTopRight {
+    background-color: white;
+    height: 50%;
+    width: 130%;
+    margin-left: -45px;
+
+}
+
+#topHalfRightSide {
+    background-color: white;
+    height: 50%;
+    margin-left: -45px;
+    width: 150%;
+    z-index: -1;
+}
+
+#rightTopUpperLeft {
+    background-color: white;
+    height: 100%;
+    margin-left: -25px;
+    border-top-right-radius: 85px 60px;
+}
+
+#bottomHalfRightSide {
+    background-color: white;
+    height: 50%;
+    margin-left: -45px;
+    width: 127%;
+}
+
+#bottomTopLowerRight {
+    position: relative;
+    background-color: white;
+    height: 50%;
+    top: 50%;
+    width: 22.5%;
+    right: 0;
+    border-bottom-left-radius: 85px 60px;
+    z-index: 1;
+}
+
+#bottomTopLowerLeft {
+    position: relative;
+    height: 50%;
+    top: 0;
+    background-color: #c00d0d;
+    border-top-right-radius: 85px 60px;
+}
+
+#imConfusedAtThisPoint {
+    position: relative;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background-color: #c00d0d;
+}
+
+#containerSection {
+    height: 100%;
+    margin-left: -40px;
+    border-radius: 25px 0 0 0;
+    background-color: #8b0000;
+    margin-right: -30px;
+}
+
+#topLeftTopLeft {
+    border-radius: 25px 0 0 0;
+    background-color: #8b0000;
+    height: 50%;
+}
+
+#topLeftTopRight {
+    height: 50%;
+    background-color: #8b0000;
+    right: -40px;  
+}
+
+#topLeftBottomLeft {
+    position: relative;
+    height: 25%;
+    background-color: #8b0000;
+}
+
+#topLeftBottomRight {
+    background-color: #c00d0d;
+    height: 25%;
+    border-top-left-radius: 85px 60px;
+}
+
+#getRidOfDarkRed {
+    height: 25%;
+    background-color: #8b0000;
+    border-bottom-right-radius: 85px 60px;
+    z-index: 1;
+    box-shadow: -5px 5px 0px 5px #600707;
+}
+
+#idkWhatImDoing {
+    position: absolute;
+    height: 25%;
+    top: 75%;
+    left: 40%;
+    background-color: #c00d0d;
+}
+
+
+#largeWhiteButton {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;   
+    border-radius: 50%;  
+    background-color: #ffffff;
+    z-index: 2;
+    border: 5px solid #690404;
+}
+
+#largeBlueButton {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    z-index: 3;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: radial-gradient(ellipse at center, #9de6f6 0%,#54d3f0 70%);
+}
+
+#reflection {
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    background-color: #a0f2fa;
+    border-radius: 40%;
+    z-index: 5;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.smallBtn {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 3px solid #740303;
+}
+
+#redBtn {
+    margin-left: 100px;
+    background: radial-gradient(ellipse at center, #f87070 0%,#da3b3b 71%);
+}
+
+#yellowBtn {
+    background: radial-gradient(ellipse at center, #fcfc66 0%,#fcfc66 71%);
+}
+
+#greenBtn {
+    background: radial-gradient(ellipse at center, #a6f971 0%,#6eea42 70%);
 }
