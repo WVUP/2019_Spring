@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -16,9 +16,45 @@
 <body>
     <div class="row">
         <div id="leftSide" class="col-sm-4">
-
+            <div class="container">
+                <div id="filters" class="jumbotron">
+                    <h1 id="filterByType">
+                        Filter By Type
+                    </h1>
+                    <div id="typesContainer" class="row">
+                        <div id="types" class="row justify-content-center">
+                            <div id="Bug" class="type col-3">Bug</div>
+                            <div id="Dark" class="type col-3">Dark</div>
+                            <div id="Dragon" class="type col-3">Dragon</div>
+                            <div id="Electric" class="type col-3">Electric</div>
+                            <div id="Fairy" class="type col-3">Fairy</div>
+                            <div id="Fighting" class="type col-3">Fighting</div>
+                            <div id="Fire" class="type col-3">Fire</div>
+                            <div id="Flying" class="type col-3">Flying</div>
+                            <div id="Ghost" class="type col-3">Ghost</div>
+                            <div id="Grass" class="type col-3">Grass</div>
+                            <div id="Ground" class="type col-3">Ground</div>
+                            <div id="Ice" class="type col-3">Ice</div>
+                            <div id="Normal" class="type col-3">Normal</div>
+                            <div id="Poison" class="type col-3">Poison</div>
+                            <div id="Psychic" class="type col-3">Psychic</div>
+                            <div id="Rock" class="type col-3">Rock</div>
+                            <div id="Steel" class="type col-3">Steel</div>
+                            <div id="Water" class="type col-3">Water</div>
+                        </div>
+                    </div>
+                    <h1 id="filterByName">
+                        Filter By Name
+                    </h1>
+                    <div id="nameFilter" class="row form-group">
+                        <input placeholder="Pokemon" type="text" class="form-control" id="pkmnName">
+                    </div>
+                    <div id="pkmnList">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="rightSide" class="col-sm-8">
+        <div id="rightSide" class="col-sm-7">
             <div id="topSection" class="row">
                 <div id="topPokeDexLeft" class="col-sm-5">
                     <div id="containerSection" class="row">
