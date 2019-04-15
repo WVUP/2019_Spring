@@ -1,0 +1,301 @@
+.container
+{
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#GrayBox
+{
+    
+    background-color: #b0b0b0; 
+    min-height: 200px; 
+    float:left; 
+    min-width: 300px; 
+    margin-top: 10px; 
+    margin-left: 10px; 
+    border-radius: 10px;
+ 
+}
+
+#GreenBox
+{
+    float: right; 
+    min-width: 300px; 
+    min-height: 100px; 
+    background-color: #6dea40; 
+    border: 1px solid #950909;
+    border-radius: 20px; 
+    margin-top: 8px; 
+    margin-right: 8px;
+}
+
+.main  
+{
+    align-content: center; 
+    border: 1px solid black; 
+    background-color: #c00d0d; 
+    background: linear-gradient(to bottom,  #c00d0d);
+    min-height: 75%;
+    min-width: 1000px;
+    
+
+}
+
+.leftSide
+{
+order:1;
+/* min-height: 50%;
+min-width: 45%; */
+}
+
+.rightSide
+{
+order:2;    
+/* min-height: 50%;
+min-width: 45%; */
+}
+
+#WhiteBox
+{
+
+background-color: white;
+min-width: 100px;
+min-height: 150px;
+border-radius: 10px;
+border: 2px solid black;
+margin: 10px;
+margin-top: 20px;
+}
+
+#RedButton
+{
+
+background-color:#a20505;
+float: left;
+min-width: 30px;
+min-height: 30px;
+border-radius: 20px;
+margin-left: 10px;
+
+
+}
+
+#BlueBox
+{
+
+background-color: #0e40e9;
+margin: 10px;
+min-width: 240px;
+min-height: 140px;
+border-radius: 8px;
+float: right;
+clear: right;
+margin-right: 40px;
+margin-top: 20px;
+}
+
+#GrayCircle
+{
+
+background-color: #005e58;
+min-width: 15px;
+min-height: 15px;
+border-radius: 20px;
+/* float: right;
+clear: right; */
+display: inline-block;
+position: relative;
+top: 280px;
+left: 410px;
+}
+
+#WhiteCircle
+{
+display: inline-block;
+background-color: white;
+min-width: 15px;
+min-height: 15px;
+border-radius: 20px;
+/* float: right;
+clear: right; */
+position: relative;
+top: 280px;
+left: 420px;
+
+}
+
+#GreenOval
+{
+
+background-color: #1fa007;
+top: 280px;
+left: 450px;
+display: inline-block;
+position: relative;
+min-width: 75px;
+min-height: 20px;
+border-radius: 10px;
+
+
+}
+
+#OrangeOval
+{
+
+background-color: #f9823b;
+top: 280px;
+left: 465px;
+display: inline-block;
+position: relative;
+min-width: 75px;
+min-height: 20px;
+border-radius: 10px;
+
+
+}
+
+#OrangeButton
+{
+background-color: #fdc200;
+top: 375px;
+left: 210px;
+display: inline-block;
+position: relative;
+min-width: 80px;
+min-height: 45px;
+border-radius: 10px;
+
+}
+
+#OrangeButton2
+{
+background-color: #fdc200;
+top: 375px;
+left: 225px;
+display: inline-block;
+position: relative;
+min-width: 80px;
+min-height: 45px;
+border-radius: 10px;
+    
+}
+
+#PlayButton
+{
+display: inline-block;
+background-color: white;
+min-width: 30px;
+min-height: 30px;
+border-radius: 20px;
+/* float: right;
+clear: right; */
+position: relative;
+top: 285px;
+left: 620px;
+
+
+}
+
+#BottomSection
+{
+
+/* border: 2px solid black; */
+min-width: 300px;
+min-height: 100px;
+position: relative;
+top: 120px;
+}
+
+#BlueButton
+{
+background-color: #0d3fe9;
+min-width: 45px;
+min-height: 45px;
+border-radius: 30px;
+display: inline-block;
+position: relative;
+top: 2px;
+left: -35px;
+}
+
+#GreenOvalLeft
+{
+
+background-color: #1fa007;
+top: -10px;
+right: 15px;
+display: inline-block;
+position: relative;
+min-width: 60px;
+min-height: 20px;
+border-radius: 10px;
+
+
+}
+
+#OrangeOvalLeft
+{
+
+background-color: #f9823b;
+top: -10px;
+right: 23px;
+display: inline-block;
+position: relative;
+min-width: 60px;
+min-height: 20px;
+border-radius: 10px;
+
+
+}
+
+#BlueGreenOval
+{
+
+background-color: #00645c;
+min-width: 110px;
+min-height: 45px;
+display: inline-block;
+position: relative;
+border-radius: 13px;
+bottom: -2px;
+left: 75px;
+
+}
+
+#WhiteOval
+{
+
+background-color: white;
+min-width: 80px;
+min-height: 35px;
+display: inline-block;
+position: relative;
+border-radius: 13px;
+bottom: -5px;
+left: 15px;
+
+}
+
+#Speaker
+{
+    position: absolute;
+    /* border: 1px solid black; */
+    min-width: 75px;
+    min-height: 35px;
+    top: 250px;
+    left: 225px;
+
+
+}
+
+.vent
+{
+
+min-height: 5px;
+background-color: #494949;
+margin: 5px 0px;
+
+
+}
