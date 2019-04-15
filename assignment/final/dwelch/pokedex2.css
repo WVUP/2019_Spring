@@ -1,0 +1,252 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+div#Pokedex
+	{
+		width: 750px;
+		margin: 50px auto 0 auto;
+    }
+    
+div#right
+	{
+		width: 350px;
+		height: 500px;
+		float: right;
+        position: relative;
+        background-color: purple
+    }
+
+div#curve1_left
+	{
+		width: 201px;
+		height: 85px;
+		background-color: #53008b;
+		float: left;
+        padding: 30px 0 0 30px;
+        position: absolute;
+		top: 20px;
+        left: 140px;
+		box-shadow: -10px 9px #2c005e;
+		border-bottom-right-radius: 85px 60px;
+        border-top-left-radius:10px 20px;
+    }
+
+div#bg_curve1_left
+	{
+		width: 400px;
+		height: 80px;
+		background-color: #2c005e;
+		border-top-left-radius: 30px;
+    }   
+    
+    div#curve2_left
+	{
+		width: 216px;
+		height: 451px;
+		background-color: #53008b;
+        float: right;
+        position: absolute;
+		bottom: 0;
+		right: 0;
+        border-top-left-radius:85px 60px;
+    }
+
+    div#bg_curve2_left
+	{
+		width: 400px;
+		height: 420px;
+		background-color: #53008b;
+		box-shadow: -10px 9px #2c005e;
+		border-bottom-left-radius: 30px;
+
+    }    
+    
+    div#BlueThing
+	{
+		width: 60px;
+		height: 60px;
+		margin-right: 15px;
+		border: 5px solid #fff;
+		float: left;
+		box-shadow: 0 0 10px #2c005e;
+		background: radial-gradient(#5fec5b, #4feb30);
+		border-radius: 35px;
+	}
+
+	div#reflect
+	{
+		width: 30px;
+		height: 18px;
+		margin: 3px 0 0 15px;
+		background: #fff;
+		opacity: 0.6;
+		border-radius: 15px 9px;
+		
+	}
+
+    div#RedButton
+	{
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		float: left;
+		box-shadow: 0 0 10px #2c005e;
+        border-radius: 20px;
+		background: radial-gradient(#fb7b7b, #fb0505);
+
+    }
+    
+    div#YellowButton
+	{
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		float: left;
+		box-shadow: 0 0 10px #490000;
+		border-radius: 20px;
+		background: radial-gradient(#fbfb9b, #fbfb05);
+	}
+
+	div#GreenButton
+	{
+		width: 20px;
+		height: 20px;
+		margin-right: 10px;
+		float: left;
+        box-shadow: 0 0 10px #490000;
+        border-radius: 20px;
+		background: radial-gradient(#b0fb7b, #50fb05);
+    }
+    
+    div#Screen
+	{
+		height: 245px;
+		width: 260px;
+		padding: 0 20px;
+		background-color: #b0b0b0;
+		float:left;
+		position: absolute;
+		top: 190px;
+		left: 175px;
+		border-radius: 15px;
+	}
+
+	div#Screen:after
+	{
+		content: "";
+		border-top: 40px solid #b0b0b0;
+		border-left: 40px solid #53008b;
+		height: 0;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+    }
+
+    div#buttontopPicture1, div#buttontopPicture2
+	{
+		height: 8px;
+		width: 8px;
+		background-color: #c00d0d;
+		border: 1px solid #000;
+		float: left;
+    }
+    
+    div#speakers
+	{
+		float: right;
+		width: 75px;
+		height: 10px;
+        margin-right: 20px;
+        background-color: rgb(63, 62, 62)
+    }
+
+    div#midCircle
+	{
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 5px;
+		left: 4px;
+		border-radius: 30px;
+		background: radial-gradient(#111, #222);
+	
+    } 
+    
+    div#oblong_right
+	{
+		width: 166px;
+		height: 451px;
+		background-color: #53008b;
+		float: right;
+		position: absolute;
+		top: 130;
+		left: 530;
+		border-top-right-radius:85px 60px;
+	}
+
+    div#topblockmid
+    {
+        width:60px;
+        height:60px;
+        background: linear-gradient(#53008b, #2c005e,#53008b);
+        position: absolute;
+        left:480;
+        top: 130;
+    }
+
+    div#bigbluebutton
+	{
+		height: 50px;
+		width: 50px;
+		position: absolute;
+		top: 450px;
+		left: 170px;
+		border-radius: 100px;
+		background: linear-gradient(#307bfb 0%, #0530e5 80%);	
+		box-shadow: -3px 2px #001c91;
+    }
+    
+    div#skinnygrbutton
+	{
+		height: 13px;
+		width: 50px;
+		position: absolute;
+		top: 470px;
+		left: 250px;
+		border-radius: 100px;
+		background: linear-gradient(#50fb05 0%, #057b05 100%);	
+		box-shadow: -1px 2px #004200;
+
+    }
+    
+    div#skinnyredbutton
+	{
+		height: 13px;
+		width: 50px;
+		position: absolute;
+		top: 470px;
+		left: 325px;
+		border-radius: 100px;
+		background: linear-gradient(#f83333 0%, #b10303 100%);	
+		box-shadow: -1px 2px #420000;
+
+	}
+
+    div#dpad
+	{
+		width: 30px;
+		height: 30px;
+		background-color: #222;
+		position: absolute;
+		top: 0;
+		left: 30px;
+		box-shadow: -3px 2px #010101;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+
+	}
+
+ 
