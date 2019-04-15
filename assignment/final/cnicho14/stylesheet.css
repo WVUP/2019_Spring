@@ -1,7 +1,7 @@
 .container1 {
   margin: 0 auto;
   position: relative;
-  height: 800px;
+  height: 700px;
   width: 1100px;
   background-color: red;
 }
@@ -13,7 +13,7 @@
   width: 420px;
   background-color: darkgray;
   top: 10px;
-  left: 10px;
+  left: 15px;
   border-radius: 40px;
 }
 
@@ -236,11 +236,28 @@
 .lineargradient {
   display: inline-block;
   position: relative;
-  height: 800px;
+  height: 700px;
   width: 120px;
-  background-color: darkred;
-  top: -750px;
+  background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+  top: -934px;
   left: 500px;
+}
+
+.globone {
+  display: inline-block;
+  position: inherit;
+  height: 100px;
+  width: 120px;
+  background: linear-gradient(to right, #770808, #be0d0d, #730808);
+}
+
+.globtwo {
+  display: inline-block;
+  position: inherit;
+  height: 100px;
+  width: 120px;
+  top: 496px;
+  background: linear-gradient(to right, #770808, #be0d0d, #730808);
 }
 
 .containerrightside {
@@ -248,7 +265,7 @@
   position: relative;
   height: 750px;
   width: 477px;
-  top: -1280px;
+  top: -750px;
   left: 500px;
 }
 
@@ -276,7 +293,7 @@
 .rowonebuttons {
   display: inline-block;
   position: relative;
-  width: 300px;
+  width: 320px;
   height: 40px;
   left: 90px;
   top: 130px;
@@ -290,6 +307,7 @@
   background-color: #484848;
   border-radius: 10px;
   border-style: solid;
+  border-color: #404040;
 }
 
 .yellowcirlce {
@@ -301,6 +319,7 @@
   background-color: yellow;
   border-radius: 10px;
   border-style: solid;
+  border-color: #404040;
 }
 
 .lightgreen {
@@ -308,20 +327,98 @@
   position: inherit;
   left: 90px;
   height: 15px;
-  top: -3px;
+  top: 0px;
   width: 70px;
   background-color: green;
   border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
 }
 
 .orangebar {
   display: inline-block;
   position: inherit;
   height: 15px;
-  top: -3px;
+  top: 0px;
   width: 70px;
   left: 105px;
   background-color: orangered;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
+}
+
+.rowtwobuttons {
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 50px;
+  top: 130px;
+  left: 85px;
+}
+
+.leftgraybutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.rightgraybutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 60px;
+  left: -8px;
+  top: 0px;
+  background-color: gray;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.yellowrightbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  top: -3px;
+  left: 120px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+.bottomrightbuttons {
+  display: inline-block;
+  position: inherit;
+  height: 60px;
+  width: 250px;
+  top: 150px;
+  left: 95px;
+}
+
+.leftyellowbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 100px;
+  top: 10px;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
+
+.rightyellowbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 100px;
+  top: 10px;
+  left: 11px;
+  background-color: darkgoldenrod;
   border-radius: 10px;
 }
 
@@ -332,3 +429,13 @@
   height: 200px;
   width: 200px;
 }
+
+/*Large divider in middle of pokedex
+background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+
+Small dark red divider
+background: linear-gradient(to right, #770808, #be0d0d, #730808);
+
+Small bright red divider
+background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+*/
