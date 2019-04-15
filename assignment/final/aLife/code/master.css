@@ -1,0 +1,682 @@
+#rightSide {
+    padding-left: 25px;
+}
+
+#bottomSection {
+    height: 600px;
+    width: 1100px;
+    background-color: #c00d0d;
+    border-radius: 0 0 25px 25px;
+    box-shadow: -12px 5px 0px 5px #600707;
+}
+
+img {
+    margin-top: 50px;
+}
+
+#extendTop {
+    padding-top: 30px;
+}
+
+#terminalCase {
+    background-color: #b0b0b0;
+    padding: .1rem 2rem;
+}
+
+.centerMe {
+    text-align: center;
+}
+
+#terminalTop {
+    padding-top: 10px;
+}
+
+.topCircle1 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 25px 0 auto;
+    background-color: #e65050;
+    border: 1px solid black;
+}
+
+.topCircle2 {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 0 auto 0 0;
+    background-color: #e65050;
+    border: 1px solid black;
+}
+
+.jumbotron {
+    padding: .5rem 3rem;
+    border-radius: 1.5rem;
+}
+
+#cutOff {
+    content: '';
+    height: 0;
+    position: absolute;
+    display: block;
+    border-right: 60px solid transparent;
+    border-bottom: 70px solid #c00d0d;
+    left: 12px;
+    bottom: 188px;
+}
+
+#terminalScreen {
+    margin-top: 15px;
+    height: 15rem;
+    width: 100%;
+    border: 4px solid black;
+}
+
+#terminalButton {
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(#bc0c0c, #8e0101);
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 1px solid black;
+}
+
+#vents {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.terminalVent {
+    width: 40%;
+    height: 6px;
+    background-color: #494949;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    float: left;
+}
+
+#blueButton {
+    height: 75px;
+    width: 75px;
+    background: linear-gradient(#2b74f8, #0733e6);
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: 0px 1px 0px 2px rgba(0, 0, 0, 0.75);
+}
+
+#leftMiddle {
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+#leftType {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#2ac50a, #147c04);
+    margin: 0 25px 0 auto;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#rightType {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#fd914e, #f66f23);
+    margin: 0 auto 0 0;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#pkmnIdBorder {
+    margin-left: 15px;
+    margin-top: 25px;
+    height: 75px;
+    width: 160px;
+    border-radius: 15px;
+    background: linear-gradient(#006b62, #00625a, #004846);
+    box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+#pkmnIdBox {
+    border-radius: 15px;
+    height: 90%;
+    margin-top: 3px;
+    margin-left: -18px;
+    width: 135%;
+}
+
+#arrowButtonThing {
+    text-align: center;
+    margin-left: 25px;
+}
+
+.arrows {
+    background: #222222;
+    font-size: 2.5rem;
+    color: #111111;
+    padding: 0;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+}
+
+#upArrow {
+    border-radius: 5px 5px 0 0;
+    padding-top: 5px;
+    box-shadow: -3px 0px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+#leftArrow {
+    border-radius: 5px 0 0 5px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#rightArrow {
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
+#downArrow {
+    border-radius: 0 0 5px 5px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+}
+
+#downArrow i {
+    margin-top: -10px;
+
+}
+
+#leftArrow i,
+#rightArrow i {
+    margin-top: -3px;
+}
+
+#midArrow {
+    color: #1d1d1d;
+    font-size: 1.5em;
+}
+
+#midArrow i {
+    margin-top: 5px;
+}
+
+#largeBrightRed {
+    width: 100%;
+    height: 68%;
+    background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+.smallDarkRed {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to right, #770808, #be0d0d, #730808);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+.smallBrightRed {
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+    border: 3px solid #740808;
+    box-shadow: 0px 0px 12px 5px #740808;
+}
+
+#pokeDexLeft {
+    margin-left: 25px;
+}
+
+#movesetSection {
+    height: 30%;
+    box-shadow: inset 0px 0px 15px 7px #59b438;
+    border: 4px solid #950909;
+    background-color: #6dea40;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#statSection {
+    width: 80%;
+    height: 25%;
+    background: linear-gradient(to bottom, #2b73f8, #0734e6);
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: -3px 3px 0px 3px #032b70;
+}
+
+#smallGrayButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 28px 25px 0 50px;
+    background-color: #005e58;
+    box-shadow: -1px 1px 0px 1px #022423;
+    float: left;
+}
+
+#smallYellowButton {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 28px 25px 0 auto;
+    background-color: #ffca00;
+    box-shadow: -1px 1px 0px 1px #022423;
+    float: left;
+}
+
+#wideGreenButton {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#2ac50a, #147c04);
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    float: left;
+}
+
+#wideOrangeButton {
+    width: 40%;
+    height: 25px;
+    border-radius: 25px;
+    background: linear-gradient(#fd914e, #f66f23);
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    float: right;
+}
+
+#navContainer {
+    text-align: center;
+}
+
+#downId {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #a7a7a7, #515151);
+    border-radius: 5px 0 0 5px;
+    color: #780808;
+    font-size: 2.5rem;
+    border: 1px solid #303030;
+    box-shadow: -2px 1px 0px 1px #303030;
+}
+
+#upId {
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background: linear-gradient(to bottom, #a7a7a7, #515151);
+    border-radius: 0 5px 5px 0;
+    color: #780808;
+    font-size: 2.5rem;
+    border: 1px solid #303030;
+    box-shadow: -2px 1px 0px 1px #303030;
+}
+
+#clearFilter {
+    width: 40px;
+    height: 40px;
+    background-color: #fdc228;
+    border-radius: 50%;
+    margin-top: 25px;
+    box-shadow: -2px 1px 0px 1px #4e2801;
+    border: 1px solid #4e2801;
+}
+
+#clearFilter i {
+    font-size: 2.5em;
+    color: #780808;
+    margin-left: -10px;
+}
+
+#clearFilter:hover,
+#downId:hover,
+#upId:hover {
+    transition: box-shadow .5s;
+    box-shadow: 0px 0px 8px 8px #e5cc72;
+}
+
+#bigOrangeContainer {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bigOrangeBox {
+    margin-top: 10px;
+    height: 60px;
+    background-color: #ffc900;
+    border: 3px solid #950909;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 25px 5px rgba(226, 110, 5, 1);
+}
+
+#bigOrangeLeft {
+    margin-right: 6px;
+}
+
+#bigOrangeRight {
+    margin-left: 6px;
+}
+
+#leftTopSection {
+    background-color: #8b0000;
+    border-radius: 25px 0 0 0;
+}
+
+#midTopSection .smallBrightRed,
+#midTopSection .smallDarkRed {
+    height: 50%;
+    margin-left: 35px;
+}
+
+#imgContainer img {
+    width: 1100px;
+    margin-top: -18px;
+    margin-left: -27px;
+}
+
+#pokeDexMid {
+    margin-left: 14px;
+}
+
+#topSection {
+    width: 1100px;
+    height: 150px;
+    box-shadow: -12px 5px 0px 5px #600707;
+    border-radius: 25px 0 0 0;
+    background-color: #c00d0d;
+    margin-top: 5%;
+}
+
+#topPokeDexLeft {
+    margin-left: 25px;
+}
+
+#topPokeDexMid {
+    margin-left: 14px;
+}
+
+#topPokeDexMid div {
+    height: 50%;
+}
+
+#topPokeDexMid {
+    z-index: 5;
+}
+
+#blockTopRight {
+    background-color: white;
+    height: 50%;
+    width: 130%;
+    margin-left: -45px;
+
+}
+
+#topHalfRightSide {
+    background-color: white;
+    height: 50%;
+    margin-left: -45px;
+    width: 150%;
+    z-index: -1;
+}
+
+#rightTopUpperLeft {
+    background-color: white;
+    height: 100%;
+    margin-left: -25px;
+    border-top-right-radius: 85px 60px;
+}
+
+#bottomHalfRightSide {
+    background-color: white;
+    height: 50%;
+    margin-left: -45px;
+    width: 127%;
+}
+
+#bottomTopLowerRight {
+    position: relative;
+    background-color: white;
+    height: 50%;
+    top: 50%;
+    width: 22.5%;
+    right: 0;
+    border-bottom-left-radius: 85px 60px;
+    z-index: 1;
+}
+
+#bottomTopLowerLeft {
+    position: relative;
+    height: 50%;
+    top: 0;
+    background-color: #c00d0d;
+    border-top-right-radius: 85px 60px;
+}
+
+#imConfusedAtThisPoint {
+    position: relative;
+    height: 50%;
+    top: 0;
+    left: 0;
+    background-color: #c00d0d;
+}
+
+#containerSection {
+    height: 100%;
+    margin-left: -40px;
+    border-radius: 25px 0 0 0;
+    background-color: #8b0000;
+    margin-right: -30px;
+}
+
+#topLeftTopLeft {
+    border-radius: 25px 0 0 0;
+    background-color: #8b0000;
+    height: 50%;
+}
+
+#topLeftTopRight {
+    height: 50%;
+    background-color: #8b0000;
+    right: -40px;
+}
+
+#topLeftBottomLeft {
+    position: relative;
+    height: 25%;
+    background-color: #8b0000;
+}
+
+#topLeftBottomRight {
+    background-color: #c00d0d;
+    height: 25%;
+    border-top-left-radius: 85px 60px;
+}
+
+#getRidOfDarkRed {
+    height: 25%;
+    background-color: #8b0000;
+    border-bottom-right-radius: 85px 60px;
+    z-index: 1;
+    box-shadow: -5px 5px 0px 5px #600707;
+}
+
+#idkWhatImDoing {
+    position: absolute;
+    height: 25%;
+    top: 75%;
+    left: 40%;
+    background-color: #c00d0d;
+}
+
+
+#largeWhiteButton {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    z-index: 2;
+    border: 5px solid #690404;
+}
+
+#largeBlueButton {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    z-index: 3;
+    margin-top: 25px;
+    margin-left: 10px;
+    background: radial-gradient(ellipse at center, #9de6f6 0%, #54d3f0 70%);
+}
+
+#reflection {
+    position: absolute;
+    height: 20px;
+    width: 50px;
+    background-color: #a0f2fa;
+    border-radius: 40%;
+    z-index: 5;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+
+.smallBtn {
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 3px solid #740303;
+}
+
+#redBtn {
+    margin-left: 100px;
+    background: radial-gradient(ellipse at center, #f87070 0%, #da3b3b 71%);
+}
+
+#yellowBtn {
+    background: radial-gradient(ellipse at center, #fcfc66 0%, #fcfc66 71%);
+}
+
+#greenBtn {
+    background: radial-gradient(ellipse at center, #a6f971 0%, #6eea42 70%);
+}
+
+#testSize {
+    background-color: blueviolet;
+    width: 100%;
+    height: 25px;
+}
+
+#filters {
+    text-align: center;
+    background-color: transparent;
+    margin-top: 5%;
+}
+
+.type {
+    font-size: 18px;
+    border-radius: 35px;
+    font-family: 'Notable', sans-serif;
+    color: white;
+    margin: 5px;
+    padding-bottom: 4px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    box-shadow: inset 0px 0px 0px 3px white;
+    border: 2px solid black;
+    min-width: 160px;
+}
+
+#Bug {
+    background: linear-gradient(to bottom, #afbf28 0%, #88960e 51%, #afbf28 100%);
+
+}
+
+#Dark {
+    background: linear-gradient(to bottom, #5b4537 0%, #3c2d23 50%, #5b4537 100%);
+}
+
+#Dragon {
+    background: linear-gradient(to bottom, #7f68e8 0%, #503ca7 50%, #7f68e8 100%);
+}
+
+#Electric {
+    background: linear-gradient(to bottom, #fdc739 0%, #e69202 50%, #fdc739 100%);
+}
+
+#Fairy {
+    background: linear-gradient(to bottom, #f6b5f6 0%, #e18fe1 50%, #f6b5f6 100%);
+}
+
+#Fighting {
+    background: linear-gradient(to bottom, #85361d 0%, #5f2311 50%, #85361d 100%);
+}
+
+#Fire {
+    background: linear-gradient(to bottom, #f35726 0%, #c72100 50%, #f35726 100%);
+}
+
+#Flying {
+    background: linear-gradient(to bottom, #9aabf6 0%, #5d74d4 50%, #9aabf6 100%);
+}
+
+#Ghost {
+    background: linear-gradient(to bottom, #6262b4 0%, #464694 50%, #6262b4 100%);
+}
+
+#Grass {
+    background: linear-gradient(to bottom, #84cb4a 0%, #389a02 50%, #84cb4a 100%);
+}
+
+#Ground {
+    background: linear-gradient(to bottom, #d8ba66 0%, #b59235 50%, #d8ba66 100%);
+}
+
+#Ice {
+    background: linear-gradient(to bottom, #b7edff 0%, #77d6f6 50%, #b7edff 100%);
+}
+
+#Normal {
+    background: linear-gradient(to bottom, #d5d0ca 0%, #b1a998 50%, #d5d0ca 100%);
+}
+
+#Poison {
+    background: linear-gradient(to bottom, #a35da4 0%, #6d2570 50%, #a35da4 100%);
+}
+
+#Psychic {
+    background: linear-gradient(to bottom, #ee5088 0%, #dc3165 50%, #ee5088 100%);
+}
+
+#Rock {
+    background: linear-gradient(to bottom, #bea65c 0%, #9e863d 50%, #bea65c 100%);
+}
+
+#Steel {
+    background: linear-gradient(to bottom, #babac8 0%, #8e8e9f 50%, #babac8 100%);
+}
+
+#Water {
+    background: linear-gradient(to bottom, #3c9dfe 0%, #0c67c2 50%, #3c9dfe 100%);
+}
+
+#filterByName {
+    margin-top: 5%;
+}
+
+#pkmnList {
+    height: 315px;
+    background-color: rgba(128, 128, 128, 0.05);
+    width: 100%;
+    overflow: scroll;
+    padding: 10px;
+    text-align: left;
+}

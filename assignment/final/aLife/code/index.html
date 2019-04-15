@@ -1,0 +1,230 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Notable" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="master.css">
+    <title>PokeDex</title>
+</head>
+
+<body>
+    <div class="row">
+        <div id="leftSide" class="col-sm-4">
+            <div class="container">
+                <div id="filters" class="jumbotron">
+                    <h1 id="filterByType">
+                        Filter By Type
+                    </h1>
+                    <div id="typesContainer" class="row">
+                        <div id="types" class="row justify-content-center">
+                            <div id="Bug" class="type col-3">Bug</div>
+                            <div id="Dark" class="type col-3">Dark</div>
+                            <div id="Dragon" class="type col-3">Dragon</div>
+                            <div id="Electric" class="type col-3">Electric</div>
+                            <div id="Fairy" class="type col-3">Fairy</div>
+                            <div id="Fighting" class="type col-3">Fighting</div>
+                            <div id="Fire" class="type col-3">Fire</div>
+                            <div id="Flying" class="type col-3">Flying</div>
+                            <div id="Ghost" class="type col-3">Ghost</div>
+                            <div id="Grass" class="type col-3">Grass</div>
+                            <div id="Ground" class="type col-3">Ground</div>
+                            <div id="Ice" class="type col-3">Ice</div>
+                            <div id="Normal" class="type col-3">Normal</div>
+                            <div id="Poison" class="type col-3">Poison</div>
+                            <div id="Psychic" class="type col-3">Psychic</div>
+                            <div id="Rock" class="type col-3">Rock</div>
+                            <div id="Steel" class="type col-3">Steel</div>
+                            <div id="Water" class="type col-3">Water</div>
+                        </div>
+                    </div>
+                    <h1 id="filterByName">
+                        Filter By Name
+                    </h1>
+                    <div id="nameFilter" class="row form-group">
+                        <input placeholder="Pokemon" type="text" class="form-control" id="pkmnName">
+                    </div>
+                    <div id="pkmnList">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rightSide" class="col-sm-7">
+            <div id="topSection" class="row">
+                <div id="topPokeDexLeft" class="col-sm-5">
+                    <div id="containerSection" class="row">
+                        <div id="topLeftTopLeft" class="col-sm-6">
+                            <div id="largeWhiteButton"></div>
+                            <div id="largeBlueButton"></div>
+                            <div id="reflection"></div>
+                            <div id="redBtn" class="smallBtn"></div>
+                            <div id="yellowBtn" class="smallBtn"></div>
+                            <div id="greenBtn" class="smallBtn"></div>
+                        </div>
+                        <div id="topLeftTopRight" class="col-sm-6"></div>
+                        <div id="topLeftBottomLeft" class="col-sm-6"></div>
+                        <div id="topLeftBottomRight" class="col-sm-6"></div>
+                        <div id="getRidOfDarkRed" class="col-sm-6"></div>
+                        <div id="idkWhatImDoing" class="col-sm-8"></div>
+                    </div>
+                </div>
+                <div id="topPokeDexMid" class="col-sm-1">
+                    <div class="row smallDarkRed"></div>
+                    <div class="row smallBrightRed"></div>
+                </div>
+                <div id="topPokeDexRight" class="col-sm-5">
+                    <div id="topHalfRightSide" class="row">
+                        <div id="rightTopUpperLeft" class="col-sm-6"></div>
+                        <div id="rightTopUpperRight" class="col-sm-6"></div>
+                    </div>
+                    <div id="bottomHalfRightSide" class="row">
+                        <div id="bottomTopLowerLeft" class="col-sm-6"></div>
+                        <div id="bottomTopLowerRight" class="col-sm-6"></div>
+                        <div id="imConfusedAtThisPoint" class="col-sm-7"></div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="bottomSection" class="row">
+                <div id="pokeDexLeft" class="col-sm-5">
+                    <div id="extendTop" class="row">
+                        <div id="terminal" class="container">
+                            <div id="terminalCase" class="jumbotron">
+                                <div id="terminalTop" class="row">
+                                    <div class="topCircle1"></div>
+                                    <div class="topCircle2"></div>
+                                </div>
+                                <div class="row">
+                                    <div id="terminalScreen" class="jumbotron"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <div id="terminalButton"></div>
+                                    </div>
+                                    <div id="vents" class="col-sm-4 offset-sm-5">
+                                        <div class="terminalVent"></div>
+                                        <div class="terminalVent"></div>
+                                        <div class="terminalVent"></div>
+                                        <div class="terminalVent"></div>
+                                        <div class="terminalVent"></div>
+                                        <div class="terminalVent"></div>
+                                    </div>
+                                </div>
+                                <div id="cutOff"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="leftBlueButton" class="col-sm-2">
+                            <div id="blueButton"></div>
+                        </div>
+                        <div id="leftMiddle" class="col-sm-5">
+                            <div class="row">
+                                <div id="leftType"></div>
+                                <div id="rightType"></div>
+                            </div>
+                            <div class="row">
+                                <div id="pkmnIdBorder" class="jumbotron">
+                                    <div id="pkmnIdBox" class="jumbotron"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="arrowButtonThing" class="col-sm-3">
+                            <div class="row">
+                                <div class="col-sm-4"></div>
+                                <div id="upArrow" class="col-sm-4 arrows">
+                                    <i class="fas fa-sort-up"></i>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                            <div class="row">
+                                <div id="leftArrow" class="col-sm-4 arrows">
+                                    <i class="fas fa-caret-left"></i>
+                                </div>
+                                <div id="midArrow" class="col-sm-4 arrows">
+                                    <i class="fas fa-circle"></i>
+                                </div>
+                                <div id="rightArrow" class="col-sm-4 arrows">
+                                    <i class="fas fa-caret-right"></i>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4"></div>
+                                <div id="downArrow" class="col-sm-4 arrows">
+                                    <i class="fas fa-sort-down"></i>
+                                </div>
+                                <div class="col-sm-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pokeDexMid" class="col-sm-1">
+                    <div class="smallDarkRed row"></div>
+                    <div id="largeBrightRed" class="row"></div>
+                    <div class="smallDarkRed row"></div>
+                    <div class="row smallBrightRed"></div>
+                </div>
+                <div id="pokeDexRight" class="col-sm-5">
+                    <div id="movesetSection" class="row">
+                        <!-- Section needs scrolling bit
+                             to support full moveset. -->
+                    </div>
+                    <div id="statSection" class="row"></div>
+                    <div id="randomButtons" class="row">
+                        <div class="col-sm-5">
+                            <div id="smallGrayButton"></div>
+                            <div id="smallYellowButton"></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="wideGreenButton"></div>
+                            <div id="wideOrangeButton"></div>
+                        </div>
+                    </div>
+                    <div id="navigateButtons" class="row">
+                        <div id="cyclePkmn" class="col-sm-3 offset-2">
+                            <div id="navContainer" class="row">
+                                <div id="downId" class="col-sm-6">
+                                    <i class="fas fa-caret-left"></i>
+                                </div>
+                                <div id="upId" class="col-sm-6">
+                                    <i class="fas fa-caret-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="removeFilters" class="col-sm-7">
+                            <div id="clearFilterContainer" class="row">
+                                <div id="clearFilter" class="col-md-1 offset-8">
+                                    <i class="fas fa-caret-left"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="bigOrangeContainer">
+                        <div id="bigOrangeLeft" class="col-sm-5 offset-1 bigOrangeBox"></div>
+                        <div id="bigOrangeRight" class="col-sm-5 bigOrangeBox"></div>
+                    </div>
+                </div>
+            </div>
+            <img src="https://toucantoco.com/blog/wp-content/uploads/2016/07/Capture-d%E2%80%99e%CC%81cran-2016-07-19-a%CC%80-15.27.31.png"
+                alt="">
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+<script src="master.js"></script>
+
+</html>
