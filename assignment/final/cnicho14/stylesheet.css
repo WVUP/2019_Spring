@@ -1,0 +1,441 @@
+.container1 {
+  margin: 0 auto;
+  position: relative;
+  height: 700px;
+  width: 1100px;
+  background-color: red;
+}
+
+.greycontainer {
+  display: inline-block;
+  position: relative;
+  height: 430px;
+  width: 420px;
+  background-color: darkgray;
+  top: 10px;
+  left: 15px;
+  border-radius: 40px;
+}
+
+.containerleftside {
+  position: relative;
+  top: 10px;
+  height: 750px;
+  width: 500px;
+}
+
+.whitecontainer {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 330px;
+  background-color: white;
+  border-radius: 40px;
+  top: 25px;
+  left: 45px;
+  border-style: solid;
+}
+
+.redcircle {
+  position: relative;
+  top: 10px;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #606060;
+  right: 15px;
+}
+
+.redcircle2 {
+  position: relative;
+  top: -3.5px;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  margin: 0 auto;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #606060;
+  left: 25px;
+}
+
+.bottomleftcirle {
+  position: relative;
+  height: 45px;
+  width: 45px;
+  top: 35px;
+  left: 80px;
+  background-color: #ff4d4d;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #606060;
+  margin: 0;
+}
+
+.blackline {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  top: 40px;
+  left: 130px;
+  background-color: #606060;
+}
+
+#line2 {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  background-color: #606060;
+  left: 0;
+  top: -10px;
+}
+
+#line3 {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  background-color: #606060;
+  left: 0;
+  top: -10px;
+}
+
+#line4 {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  background-color: #606060;
+  left: 65px;
+  top: -6px;
+}
+
+#line5 {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  background-color: #606060;
+  left: 0;
+  top: -10px;
+}
+
+#line6 {
+  position: relative;
+  height: 6px;
+  width: 55px;
+  background-color: #606060;
+  left: 0;
+  top: -10px;
+}
+
+.bluecircle {
+  position: relative;
+  height: 85px;
+  width: 85px;
+  background-color: royalblue;
+  border-radius: 45px;
+  top: 40px;
+  left: 20px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.greenboy {
+  position: relative;
+  top: -20px;
+  height: 16px;
+  width: 80px;
+  left: 140px;
+  background-color: green;
+  padding: 1px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.orangeboy {
+  position: relative;
+  top: -44px;
+  height: 16px;
+  left: 230px;
+  width: 80px;
+  background-color: orange;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #484848;
+  padding: 1px;
+}
+
+.idcontainer {
+  position: relative;
+  height: 80px;
+  width: 200px;
+  left: 130px;
+  top: -15px;
+  border-radius: 13px;
+  background-color: #484848;
+  padding: 3px;
+}
+
+.whiteid {
+  position: relative;
+  height: 60px;
+  width: 180px;
+  top: 10px;
+  left: 8px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.gamepadarrows {
+  position: relative;
+  float: right;
+  height: 40px;
+  width: 40px;
+  background-color: #484848;
+  top: -150px;
+  left: -55px;
+}
+
+.middlechunck {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  right: 0px;
+  top: 40px;
+  background-color: #484848;
+}
+
+.leftarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  right: 40px;
+  background-color: #484848;
+}
+
+.rightarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  left: 40px;
+  top: -39px;
+  background-color: #484848;
+}
+
+.bottomarrow {
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  left: 0px;
+  top: -40px;
+  background-color: #484848;
+}
+
+.lineargradient {
+  display: inline-block;
+  position: relative;
+  height: 700px;
+  width: 120px;
+  background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+  top: -934px;
+  left: 500px;
+}
+
+.globone {
+  display: inline-block;
+  position: inherit;
+  height: 100px;
+  width: 120px;
+  background: linear-gradient(to right, #770808, #be0d0d, #730808);
+}
+
+.globtwo {
+  display: inline-block;
+  position: inherit;
+  height: 100px;
+  width: 120px;
+  top: 496px;
+  background: linear-gradient(to right, #770808, #be0d0d, #730808);
+}
+
+.containerrightside {
+  display: inline-block;
+  position: relative;
+  height: 750px;
+  width: 477px;
+  top: -750px;
+  left: 500px;
+}
+
+.greenstats {
+  display: inline-block;
+  position: relative;
+  height: 150px;
+  left: 55px;
+  width: 350px;
+  top: 50px;
+  background-color: limegreen;
+  border-radius: 20px;
+}
+
+.bluebox {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 290px;
+  left: 92px;
+  background-color: blue;
+  top: 96px;
+}
+
+.rowonebuttons {
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 40px;
+  left: 90px;
+  top: 130px;
+}
+
+.blackcircle {
+  display: inline-block;
+  position: inherit;
+  height: 15px;
+  width: 15px;
+  background-color: #484848;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
+}
+
+.yellowcirlce {
+  display: inline-block;
+  position: inherit;
+  height: 15px;
+  width: 15px;
+  left: 19px;
+  background-color: yellow;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
+}
+
+.lightgreen {
+  display: inline-block;
+  position: inherit;
+  left: 90px;
+  height: 15px;
+  top: 0px;
+  width: 70px;
+  background-color: green;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
+}
+
+.orangebar {
+  display: inline-block;
+  position: inherit;
+  height: 15px;
+  top: 0px;
+  width: 70px;
+  left: 105px;
+  background-color: orangered;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #404040;
+}
+
+.rowtwobuttons {
+  display: inline-block;
+  position: relative;
+  width: 320px;
+  height: 50px;
+  top: 130px;
+  left: 85px;
+}
+
+.leftgraybutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 60px;
+  background-color: gray;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.rightgraybutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 60px;
+  left: -8px;
+  top: 0px;
+  background-color: gray;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: #484848;
+}
+
+.yellowrightbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 40px;
+  top: -3px;
+  left: 120px;
+  background-color: yellow;
+  border-radius: 20px;
+}
+
+.bottomrightbuttons {
+  display: inline-block;
+  position: inherit;
+  height: 60px;
+  width: 250px;
+  top: 150px;
+  left: 95px;
+}
+
+.leftyellowbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 100px;
+  top: 10px;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
+
+.rightyellowbutton {
+  display: inline-block;
+  position: inherit;
+  height: 40px;
+  width: 100px;
+  top: 10px;
+  left: 11px;
+  background-color: darkgoldenrod;
+  border-radius: 10px;
+}
+
+#bulb {
+  position: relative;
+  left: 45px;
+  top: 35px;
+  height: 200px;
+  width: 200px;
+}
+
+/*Large divider in middle of pokedex
+background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+
+Small dark red divider
+background: linear-gradient(to right, #770808, #be0d0d, #730808);
+
+Small bright red divider
+background: linear-gradient(to right, #8f0000, #ba0b0b, #8f0000);
+*/
