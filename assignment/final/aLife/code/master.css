@@ -707,6 +707,7 @@ img {
 
 #scrollingMoveset {
     overflow-y: scroll;
+    overflow-x: hidden;
     height: 170px;
     width: 95%;
     margin: 0 auto;
