@@ -94,6 +94,7 @@ pkmnListDiv.addEventListener("click", function(){
                 <div class="col-sm-6">${data.stats[1].stat.name}: ${data.stats[1].base_stat}</div>
                 <div class="col-sm-6">${data.stats[0].stat.name}: ${data.stats[0].base_stat}</div>
             `
+            moveset.innerHTML = "";
             for(let i = 0; i < data.moves.length; i++)
             {
                 let move = moves.find(name => name.NAME === data.moves[i].move.name);
