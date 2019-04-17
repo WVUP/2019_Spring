@@ -10,6 +10,9 @@ let pkmnListDiv = document.getElementById("pkmnList");
 let pkmnPic = document.getElementById("terminalScreen");
 let pkmnStats = document.getElementById("statSection");
 let moveset = document.getElementById("scrollingMoveset");
+let type1 = document.getElementById("leftType").getElementsByTagName("p")[0];
+let type2 = document.getElementById("rightType").getElementsByTagName("p")[0];
+let idBox = document.getElementById("pkmnIdBox");
 
 pkmnListDiv.innerHTML = "Loading Pokemon";
 
@@ -21,7 +24,7 @@ function fetchPkmn() {
             {
                 pkmnList.push({
                     ID: data.pokemon_entries[i].entry_number, 
-                    NAME: data.pokemon_entries[i].pokemon_species.name, 
+                    NAME: data.pokemon_entries[i].pokemon_species.name,
                     PKMNURL: data.pokemon_entries[i].pokemon_species.url});
             }
             pkmnListDiv.innerHTML = "";
@@ -76,11 +79,25 @@ function fetchMoves() {
 pkmnListDiv.addEventListener("click", function(){
     var x = event.target.id;
     //console.log(pkmnList.find(pkmn => pkmn.NAME === x));
+
+    for(let i = 0; i < pkmnList.length; i++)
+    {
+        document.getElementById(pkmnList[i].NAME).classList.contains("pkmn")? document.getElementById(pkmnList[i].NAME).classList.remove("pkmn"): "";
+    }
+    document.getElementById(x).classList.add("pkmn");
+    pkmnListDiv.classList.remove("pkmn");
+
     let pkmn = pkmnList.find(pkmn => pkmn.NAME === x);
+
     fetch(baseUrl + 'pokemon/' + pkmn.ID + '/')
         .then(res => res.json())
         .then(data => {
             //console.log(data);
+            pkmn.TYPE1 = data.types[0].type.name;
+            pkmn.TYPE2 = data.types.length > 1? data.types[1].type.name: "";
+            type1.innerHTML = pkmn.TYPE1;
+            type2.innerHTML = pkmn.TYPE2;
+            idBox.innerHTML = pkmn.ID;
             terminalScreen.innerHTML =
             `
                 <img src="${data.sprites.front_default}">

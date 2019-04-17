@@ -108,10 +108,7 @@ img {
 
 #leftMiddle {
     margin-left: 45px;
-<<<<<<< HEAD
     top: 15px;
-=======
->>>>>>> e2a461c30e5dcbeafdc5e29cbb11aa48b3370681
 }
 
 #leftType {
@@ -121,6 +118,7 @@ img {
     background: linear-gradient(#2ac50a, #147c04);
     margin: 0 25px 0 auto;
     box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    text-align: center;
 }
 
 #rightType {
@@ -130,6 +128,7 @@ img {
     background: linear-gradient(#fd914e, #f66f23);
     margin: 0 auto 0 0;
     box-shadow: -2px 1px 0px 1px rgba(0, 0, 0, 0.75);
+    text-align: center;
 }
 
 #pkmnIdBorder {
@@ -140,6 +139,7 @@ img {
     border-radius: 15px;
     background: linear-gradient(#006b62, #00625a, #004846);
     box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.75);
+    text-align: center;
 }
 
 #pkmnIdBox {
@@ -148,6 +148,8 @@ img {
     margin-top: 3px;
     margin-left: -18px;
     width: 135%;
+    text-align: center;
+    font-size: 24px;
 }
 
 #arrowButtonThing {
@@ -711,4 +713,8 @@ img {
     height: 170px;
     width: 95%;
     margin: 0 auto;
+}
+
+.pkmn {
+    border: 3px solid goldenrod;
 }
