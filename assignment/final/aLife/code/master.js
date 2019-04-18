@@ -22,17 +22,16 @@ function fetchPkmn() {
     fetch(baseUrl + 'pokedex/1/')
         .then(res => res.json())
         .then(data => {
-            for(let i = 0; i < data.pokemon_entries.length; i++)
-            {
+            for (let i = 0; i < data.pokemon_entries.length; i++) {
                 pkmnList.push({
-                    ID: data.pokemon_entries[i].entry_number, 
+                    ID: data.pokemon_entries[i].entry_number,
                     NAME: data.pokemon_entries[i].pokemon_species.name,
-                    PKMNURL: data.pokemon_entries[i].pokemon_species.url});
+                    PKMNURL: data.pokemon_entries[i].pokemon_species.url
+                });
             }
             pkmnListDiv.innerHTML = "";
-            for(let i = 0; i < pkmnList.length; i++)
-            {
-                pkmnListDiv.innerHTML += `<p id="${pkmnList[i].NAME}">${pkmnList[i].NAME}</p>` ;
+            for (let i = 0; i < pkmnList.length; i++) {
+                pkmnListDiv.innerHTML += `<p id="${pkmnList[i].NAME}">${pkmnList[i].NAME}</p>`;
             }
             //console.log(pkmnList);
         });
@@ -42,8 +41,7 @@ function fetchTypes() {
     fetch(baseUrl + 'type/')
         .then(res => res.json())
         .then(data => {
-            for(let i = 0; i < data.results.length; i++)
-            {
+            for (let i = 0; i < data.results.length; i++) {
                 pkmnTypes.push({
                     TYPE: data.results[i].name,
                     TYPEURL: data.results[i].url
@@ -62,10 +60,9 @@ function fetchMoves() {
             fetch(baseUrl + 'move?offset=0&limit=' + num)
                 .then(res => res.json())
                 .then(data => {
-                    for(let i = 0; i < num; i++)
-                    {
+                    for (let i = 0; i < num; i++) {
                         fetch(data.results[i].url)
-                            .then(res =>res.json())
+                            .then(res => res.json())
                             .then(data => {
                                 moves.push({
                                     NAME: data.name,
@@ -78,29 +75,32 @@ function fetchMoves() {
         });
 }
 
-function getCurrPkmnMoves(pkmn, data){
+function getCurrPkmnMoves(pkmn, data) {
     moveset.innerHTML = "";
-            currentMoves = [];
-            for(let i = 0; i < data.moves.length; i++)
-            {
-                let move = moves.find(name => name.NAME === data.moves[i].move.name);
-                moveset.innerHTML +=
-                `
-                    <div class="row">
-                        <div class="col-sm-5 offset-1">${move.NAME}</div>
-                        <div class="col-sm-2">${move.TYPE}</div>
-                        <div class="col-sm-1" style="text-align: right;">${move.POWER != null ? move.POWER : ""}</div>
-                    </div>
-                `
-                currentMoves.push({NAME: move.NAME, TYPE: move.TYPE, POWER: move.POWER});
-            }
-            return currentMoves;
+    currentMoves = [];
+    for (let i = 0; i < data.moves.length; i++) {
+        let move = moves.find(name => name.NAME === data.moves[i].move.name);
+        moveset.innerHTML +=
+            `
+                <div class="row">
+                    <div class="col-sm-5 offset-1">${move.NAME}</div>
+                    <div class="col-sm-2">${move.TYPE}</div>
+                    <div class="col-sm-1" style="text-align: right;">${move.POWER != null ? move.POWER : ""}</div>
+                </div>
+            `
+        currentMoves.push({
+            NAME: move.NAME,
+            TYPE: move.TYPE,
+            POWER: move.POWER
+        });
+    }
+    return currentMoves;
 }
 
-function getCurrPkmnStats(pkmn, data){
+function getCurrPkmnStats(pkmn, data) {
     currentStats = [];
     statSection.innerHTML =
-    `
+        `
         <div class="col-sm-6">${data.stats[5].stat.name}: ${data.stats[5].base_stat}</div>
         <div class="col-sm-6">${data.stats[4].stat.name}: ${data.stats[4].base_stat}</div>
         <div class="col-sm-6">${data.stats[3].stat.name}: ${data.stats[3].base_stat}</div>
@@ -108,19 +108,31 @@ function getCurrPkmnStats(pkmn, data){
         <div class="col-sm-6">${data.stats[1].stat.name}: ${data.stats[1].base_stat}</div>
         <div class="col-sm-6">${data.stats[0].stat.name}: ${data.stats[0].base_stat}</div>
     `
-    currentStats.push(
-        {STAT: data.stats[5].stat.name, VALUE: data.stats[5].base_stat},
-        {STAT: data.stats[4].stat.name, VALUE: data.stats[4].base_stat},
-        {STAT: data.stats[3].stat.name, VALUE: data.stats[3].base_stat},
-        {STAT: data.stats[2].stat.name, VALUE: data.stats[2].base_stat},
-        {STAT: data.stats[1].stat.name, VALUE: data.stats[1].base_stat},
-        {STAT: data.stats[0].stat.name, VALUE: data.stats[0].base_stat},
-        
+    currentStats.push({
+            STAT: data.stats[5].stat.name,
+            VALUE: data.stats[5].base_stat
+        }, {
+            STAT: data.stats[4].stat.name,
+            VALUE: data.stats[4].base_stat
+        }, {
+            STAT: data.stats[3].stat.name,
+            VALUE: data.stats[3].base_stat
+        }, {
+            STAT: data.stats[2].stat.name,
+            VALUE: data.stats[2].base_stat
+        }, {
+            STAT: data.stats[1].stat.name,
+            VALUE: data.stats[1].base_stat
+        }, {
+            STAT: data.stats[0].stat.name,
+            VALUE: data.stats[0].base_stat
+        },
+
     );
     return currentStats;
 }
 
-function getPkmn(x){
+function getPkmn(x) {
     let pkmn = pkmnList.find(pkmn => pkmn.NAME === x);
 
     fetch(baseUrl + 'pokemon/' + pkmn.ID + '/')
@@ -128,41 +140,86 @@ function getPkmn(x){
         .then(data => {
             //console.log(data);
             pkmn.TYPE1 = data.types[0].type.name;
-            pkmn.TYPE2 = data.types.length > 1? data.types[1].type.name: "";
+            pkmn.TYPE2 = data.types.length > 1 ? data.types[1].type.name : "";
+            pkmn.SPRITES = data.sprites;
             type1.innerHTML = pkmn.TYPE1;
             type2.innerHTML = pkmn.TYPE2;
             idBox.innerHTML = pkmn.ID;
             terminalScreen.innerHTML =
-            `
+                `
                 <img src="${data.sprites.front_default}">
-            `
+                `
             pkmn.STATS = getCurrPkmnStats(pkmn, data);
             pkmn.MOVES = getCurrPkmnMoves(pkmn, data);
         });
     return pkmn
 }
 
-function selectNewPkmn(x){
-    for(let i = 0; i < pkmnList.length; i++)
-    {
-        document.getElementById(pkmnList[i].NAME).classList.contains("pkmn")? document.getElementById(pkmnList[i].NAME).classList.remove("pkmn"): "";
+function selectNewPkmn(x) {
+    for (let i = 0; i < pkmnList.length; i++) {
+        document.getElementById(pkmnList[i].NAME).classList.contains("pkmn") ? document.getElementById(pkmnList[i].NAME).classList.remove("pkmn") : "";
     }
     document.getElementById(x).classList.add("pkmn");
     pkmnListDiv.classList.remove("pkmn");
 }
 
-pkmnListDiv.addEventListener("click", function(){
-    var x = event.target.id;
-    //console.log(pkmnList.find(pkmn => pkmn.NAME === x));
-
+function buildNewPkmn(x) {
     selectNewPkmn(x);
 
     pkmn = getPkmn(x);
-    
-    builtPkmn.find(i => i.NAME === x)? "": builtPkmn.push(pkmn);
-    console.log(builtPkmn);
+
+    builtPkmn.find(i => i.NAME === x) ? "" : builtPkmn.push(pkmn);
+}
+
+function preBuiltPkmn(pkmn) {
+    selectNewPkmn(pkmn.NAME);
+    moveset.innerHTML = "";
+    terminalScreen.innerHTML =
+        `
+        <img src="${pkmn.SPRITES.front_default}">;
+        `;
+    statSection.innerHTML =
+        `
+        <div class="col-sm-6">${pkmn.STATS[0].STAT}: ${pkmn.STATS[0].VALUE}</div>
+        <div class="col-sm-6">${pkmn.STATS[1].STAT}: ${pkmn.STATS[1].VALUE}</div>
+        <div class="col-sm-6">${pkmn.STATS[2].STAT}: ${pkmn.STATS[2].VALUE}</div>
+        <div class="col-sm-6">${pkmn.STATS[3].STAT}: ${pkmn.STATS[3].VALUE}</div>
+        <div class="col-sm-6">${pkmn.STATS[4].STAT}: ${pkmn.STATS[4].VALUE}</div>
+        <div class="col-sm-6">${pkmn.STATS[5].STAT}: ${pkmn.STATS[5].VALUE}</div>
+        `;
+
+    console.log(pkmn.MOVES);
+    for (let i = 0; i < pkmn.MOVES.length; i++) {
+        moveset.innerHTML +=
+            `
+            <div class="row">
+                <div class="col-sm-5 offset-1">${pkmn.MOVES[i].NAME}</div>
+                <div class="col-sm-2">${pkmn.MOVES[i].TYPE}</div>
+                <div class="col-sm-1" style="text-align: right;">${pkmn.MOVES[i].POWER != null ? pkmn.MOVES[i].POWER : ""}</div>
+            </div>
+            `;
+    }
+}
+
+pkmnListDiv.addEventListener("click", function () {
+    var x = event.target.id;
+    //console.log(pkmnList.find(pkmn => pkmn.NAME === x));
+    let pkmn = builtPkmn.find(pkmn => pkmn.NAME === x);
+    pkmn != null ? preBuiltPkmn(pkmn) : buildNewPkmn(x);
 });
 
 fetchPkmn();
 fetchTypes();
 fetchMoves();
+
+// Add in next pkmn and previous pkmn functions to gray arrow buttons.
+// Add in clear filters to yellow arrow button.
+
+// Add in filter functionality to type.
+// Add in filter functionality to name.
+
+// Hopeful 1; Add class to big blue button to highlight on hover, on click stay highlighted and change pkmn to shiny version.
+// Hopeful 1; When selecting new pkmn from list (selectNewPkmn(x)) remove shiny class.
+// Hopeful 1; When shiny selected, run function to update img to shiny.
+
+// Hopeful 2; add in front/back view via d-pad.
