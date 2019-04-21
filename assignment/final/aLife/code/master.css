@@ -343,7 +343,8 @@ img {
 
 #clearFilter:hover,
 #downId:hover,
-#upId:hover {
+#upId:hover,
+#terminalButton:hover {
     transition: box-shadow .5s;
     box-shadow: 0px 0px 8px 8px #e5cc72;
 }
@@ -717,4 +718,8 @@ img {
 
 .pkmn {
     border: 3px solid goldenrod;
+}
+
+.terminalButtonClicked {
+    box-shadow: 0px 0px 8px 8px #e5cc72;
 }
