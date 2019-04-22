@@ -114,9 +114,9 @@ function getCurrPkmnMoves(pkmn, data) {
         moveset.innerHTML +=
             `
                 <div class="row">
-                    <div class="col-sm-5 offset-1">${move.NAME}</div>
-                    <div class="col-sm-2">${move.TYPE}</div>
-                    <div class="col-sm-1" style="text-align: right;">${move.POWER != null ? move.POWER : ""}</div>
+                    <div class="col-5 offset-1">${move.NAME}</div>
+                    <div class="col-2">${move.TYPE}</div>
+                    <div class="col-1" style="text-align: right;">${move.POWER != null ? move.POWER : ""}</div>
                 </div>
             `
         currentMoves.push({
@@ -132,12 +132,12 @@ function getCurrPkmnStats(pkmn, data) {
     currentStats = [];
     statSection.innerHTML =
         `
-        <div class="col-sm-6">${data.stats[5].stat.name}: ${data.stats[5].base_stat}</div>
-        <div class="col-sm-6">${data.stats[4].stat.name}: ${data.stats[4].base_stat}</div>
-        <div class="col-sm-6">${data.stats[3].stat.name}: ${data.stats[3].base_stat}</div>
-        <div class="col-sm-6">${data.stats[2].stat.name}: ${data.stats[2].base_stat}</div>
-        <div class="col-sm-6">${data.stats[1].stat.name}: ${data.stats[1].base_stat}</div>
-        <div class="col-sm-6">${data.stats[0].stat.name}: ${data.stats[0].base_stat}</div>
+        <div class="col-6">${data.stats[5].stat.name}: ${data.stats[5].base_stat}</div>
+        <div class="col-6">${data.stats[4].stat.name}: ${data.stats[4].base_stat}</div>
+        <div class="col-6">${data.stats[3].stat.name}: ${data.stats[3].base_stat}</div>
+        <div class="col-6">${data.stats[2].stat.name}: ${data.stats[2].base_stat}</div>
+        <div class="col-6">${data.stats[1].stat.name}: ${data.stats[1].base_stat}</div>
+        <div class="col-6">${data.stats[0].stat.name}: ${data.stats[0].base_stat}</div>
     `
     currentStats.push({
             STAT: data.stats[5].stat.name,
@@ -240,12 +240,12 @@ function preBuiltPkmn(pkmn) {
         `;
     statSection.innerHTML =
         `
-        <div class="col-sm-6">${pkmn.STATS[0].STAT}: ${pkmn.STATS[0].VALUE}</div>
-        <div class="col-sm-6">${pkmn.STATS[1].STAT}: ${pkmn.STATS[1].VALUE}</div>
-        <div class="col-sm-6">${pkmn.STATS[2].STAT}: ${pkmn.STATS[2].VALUE}</div>
-        <div class="col-sm-6">${pkmn.STATS[3].STAT}: ${pkmn.STATS[3].VALUE}</div>
-        <div class="col-sm-6">${pkmn.STATS[4].STAT}: ${pkmn.STATS[4].VALUE}</div>
-        <div class="col-sm-6">${pkmn.STATS[5].STAT}: ${pkmn.STATS[5].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[0].STAT}: ${pkmn.STATS[0].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[1].STAT}: ${pkmn.STATS[1].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[2].STAT}: ${pkmn.STATS[2].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[3].STAT}: ${pkmn.STATS[3].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[4].STAT}: ${pkmn.STATS[4].VALUE}</div>
+        <div class="col-6">${pkmn.STATS[5].STAT}: ${pkmn.STATS[5].VALUE}</div>
         `;
 
     //console.log(pkmn.MOVES);
@@ -253,9 +253,9 @@ function preBuiltPkmn(pkmn) {
         moveset.innerHTML +=
             `
             <div class="row">
-                <div class="col-sm-5 offset-1">${pkmn.MOVES[i].NAME}</div>
-                <div class="col-sm-2">${pkmn.MOVES[i].TYPE}</div>
-                <div class="col-sm-1" style="text-align: right;">${pkmn.MOVES[i].POWER != null ? pkmn.MOVES[i].POWER : ""}</div>
+                <div class="col-5 offset-1">${pkmn.MOVES[i].NAME}</div>
+                <div class="col-2">${pkmn.MOVES[i].TYPE}</div>
+                <div class="col-1" style="text-align: right;">${pkmn.MOVES[i].POWER != null ? pkmn.MOVES[i].POWER : ""}</div>
             </div>
             `;
     }

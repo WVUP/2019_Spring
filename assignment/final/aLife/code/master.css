@@ -2,10 +2,6 @@
     padding-left: 25px;
 }
 
-#leftSide {
-    min-width: 250px;
-}
-
 #bottomSection {
     height: 600px;
     width: 1100px;
@@ -726,4 +722,16 @@ img {
 
 .terminalButtonClicked {
     box-shadow: 0px 0px 8px 8px #e5cc72;
+}
+
+#leftSide {
+    min-width: 500px;
+    padding-right: 0;
+}
+
+@media (max-width: 900px){
+    #rightSide {
+        position: absolute;
+        left: 520px;
+    }
 }
