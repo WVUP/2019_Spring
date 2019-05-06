@@ -1,0 +1,420 @@
+#navbar {
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #3b3e4b;
+    color: #797c8b;
+    z-index: 1;
+    padding: 0;
+}
+
+#logo {
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+
+.nav-link {
+    float: right;
+    position: relative;
+    top: 3.5em;
+    right:15%;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #797c8b;
+    font: bold;
+}
+
+.nav-help {
+    float: right;
+    position: relative;
+    margin-right: 30px;
+    right: -29.5%;
+    color: #797c8b;
+}
+
+.nav-floater {
+    margin-left: 5px;
+    position: relative;
+    float: right;
+    right: -12em;
+    padding: 10px;
+    top: 100%;
+    border-radius: 0 0 3px 3px;
+    display:grid;
+}
+
+.under-nav {
+    text-decoration: none;
+    color: white;
+    font: italic bold 15px Helvetica;
+}
+
+#chat-now {
+    background-color: #ebad06;
+    left: 50%;
+}
+
+#get-a-quote {
+    background-color: #00b2ee;
+    left: 50%;
+}
+
+#phone {
+    background-color: #ee7541;
+    left: 50%;
+}
+
+#search {
+    background-color: #3b3e4b;
+    left: 50%;
+}
+
+#search i {
+    color: #797c8b;
+}
+
+.nav-modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+}
+
+.close {
+    color: blue;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bluearea {
+    padding-top: 15em;
+    background-color: #9cdcf2;
+    width: 100%;
+    text-align: center;
+    height: 523px;
+}
+
+#learn-more {
+    display: inline-block;
+    color: white;
+    text-shadow: 2px 1px rgb(107, 101, 101);
+    width: 60%;
+    top: 400px;
+    
+}
+
+h1{
+    font:Helvetica;
+    font-size: 36;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#text1 {
+    font-size:20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.learn-more-btn {
+    background-color: #ee7541;
+    display: inline-block;
+    width: 120px;
+    border-radius: 0px 15px;
+    font: italic bold 15px Helvetica;
+    font-size: 18;
+}
+
+
+#orangebar {
+    background-color: #ee7541;
+    text-align: center;
+    height: 100px;
+    padding-top: 1.75em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#whitearea {
+    text-align: center;
+    width: 100%;
+    height: 46em;
+    margin: 75px auto;
+    background-color: white;
+}
+
+#see-integrations {
+    background-color: #22b0e6;
+    color: white;
+    padding: 0;
+    margin: 0 46%;
+    width: 185px;
+    float: left;
+    text-align: center;
+    border-radius: 0 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    right: 50px;
+
+}
+
+#integrations {
+    text-align: center;
+    width: 100%;
+    height: 50em;
+    margin: 75px auto;
+    background-color: white;
+}
+
+#integrations-box {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box {
+    margin: 1px;
+    float: left;
+    width: 49%;
+    height: 15em;
+}
+
+.box-img {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.box-header {
+    margin-bottom: 0;
+    text-align: left;
+    float: left;
+    width: 75%;
+    color: #6b6b6b;
+    position: relative;
+    left: 20px;
+}
+
+.box-subhead {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    float: left;
+    color: #ee7541;
+    width: 75%;
+    position: relative;
+    left: 20px;
+}
+
+.box-text {
+    color: gray;
+    width: 75%;
+    text-align: left;
+    margin-top: 0;
+    position: relative;
+    left: 20px;
+}
+
+#netsuite {
+    position: relative;
+    left: 10px;
+}
+#grayarea {
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 575px;
+    text-align: center;
+}
+
+#grayheader {
+    color: rgb(66, 65, 65);
+    padding-top: 2em;
+    margin-bottom: 25px;
+    font-size: 30;
+}
+
+#pc-btn-box {
+    width: 40%;
+    position: relative;
+    left: 150px;
+}
+
+.pc-btn {
+    width: 50%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 15px;
+    background-color: white;
+    font-style: bold;
+}
+
+#mac-pc {
+    position: relative;
+    width: 550px;
+    height: 475px;
+    top: -400px;
+    left: 250px;
+}
+
+#screen {
+    top: -836px;
+    left: 250px;
+    position: relative;
+    width: 500px;
+    height: 285px;
+}
+
+#whitearea2{
+    width: 100%;
+    height: 325px;
+}
+
+#building-img {
+    position: relative;
+    margin: 50px 0;
+    left: 20%;
+}
+
+.paragraphs i {
+    color: rgb(255, 102, 0);
+}
+
+.paragraphs {
+    position: relative;
+    color: gray;
+    font-size: 18px;
+    width: 20%;
+    left: 43%;
+    top: -300px;
+    height: 60px;
+}
+
+.paragraphs p {
+    margin-bottom: 10px;
+}
+
+.sysintegrate {
+    color: gray;
+    width: 20%;
+    position: relative;
+    left: 70%;
+    top: -385px;
+    font-size: 18;
+}
+
+.sysintegrate .learn-more-btn {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 25px;
+    border: 5px 5px;
+    width: 50%;
+    background-color:  #22b0e6;
+}
+
+#orange-img {
+    width: 100%;
+    height: 400px;
+}
+
+#girl {
+    width: 100%;
+}
+
+#support {
+    position: relative;
+    text-align: center;
+    width: 35%;
+    left: 30%;
+    top: -600px;
+    color: white;
+}
+
+#support2 {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    left: 28%;
+    top: -600px;
+    color: white;
+}
+
+#support3 {
+    font-size: 10;
+    top: -600px;
+    color: white;
+    position: relative;
+    right: 50%;
+}
+
+
+
+#grayarea2{
+    width: 100%;
+    height: 600px;
+    background-color: #f4f4f4;
+}
+
+#img-row {
+    width: 75px;
+    height: 75px;
+    display: grid;
+}
+
+#final-links{
+    width: 100%;
+    height: 200px;
+    background-color:  #484b5c 
+}
+
+#finalhead {
+    color: white;
+    font-size: 14;
+    position: relative;
+    top: 200px;
+}
+
+.link {
+    columns: 2;
+    position: relative;
+    top: 50%;
+    left:85%;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #797c8b;
+    font: bold;
+}
+
+#copyright {
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color:  #3b3e4b;
+    text-align:center;
+    color: white;
+    padding-top: 1.75em;
+}
