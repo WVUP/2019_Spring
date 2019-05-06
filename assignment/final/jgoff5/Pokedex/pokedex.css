@@ -24,11 +24,13 @@
     float: right; 
     min-width: 300px; 
     min-height: 100px; 
-    background-color: #6dea40; 
-    border: 1px solid #950909;
+    box-shadow: inset 0px 0px 15px 7px #59b438;
+    border: 4px solid #950909;
+    background-color: #6dea40;
     border-radius: 20px; 
     margin-top: 8px; 
     margin-right: 8px;
+    background: radial-gradient(ellipse at center, #a6f971 0%, #6eea42 70%);
 }
 
 .main  
@@ -37,7 +39,7 @@
     border: 1px solid black; 
     background-color: #c00d0d; 
     background: linear-gradient(to bottom,  #c00d0d);
-    min-height: 75%;
+    min-height: 55%;
     min-width: 1000px;
     
 
@@ -78,6 +80,7 @@ min-width: 30px;
 min-height: 30px;
 border-radius: 20px;
 margin-left: 10px;
+border: solid 1px black;
 
 
 }
@@ -85,7 +88,7 @@ margin-left: 10px;
 #BlueBox
 {
 
-background-color: #0e40e9;
+background: linear-gradient(to bottom, #2b73f8, #0734e6);
 margin: 10px;
 min-width: 240px;
 min-height: 140px;
@@ -94,6 +97,7 @@ float: right;
 clear: right;
 margin-right: 40px;
 margin-top: 20px;
+
 }
 
 #GrayCircle
@@ -129,7 +133,7 @@ left: 420px;
 #GreenOval
 {
 
-background-color: #1fa007;
+background: linear-gradient(#2ac50a, #147c04);
 top: 280px;
 left: 450px;
 display: inline-block;
@@ -139,12 +143,13 @@ min-height: 20px;
 border-radius: 10px;
 
 
+
 }
 
 #OrangeOval
 {
 
-background-color: #f9823b;
+background: linear-gradient(#fd914e, #f66f23);
 top: 280px;
 left: 465px;
 display: inline-block;
@@ -159,6 +164,7 @@ border-radius: 10px;
 #OrangeButton
 {
 background-color: #fdc200;
+box-shadow: inset 0px 0px 25px 5px rgba(226, 110, 5, 1);
 top: 375px;
 left: 210px;
 display: inline-block;
@@ -172,6 +178,7 @@ border-radius: 10px;
 #OrangeButton2
 {
 background-color: #fdc200;
+box-shadow: inset 0px 0px 25px 5px rgba(226, 110, 5, 1);
 top: 375px;
 left: 225px;
 display: inline-block;
@@ -185,7 +192,9 @@ border-radius: 10px;
 #PlayButton
 {
 display: inline-block;
-background-color: white;
+background-color: #fdc228;
+box-shadow: -1px 1px 0px 1px #4e2801;
+border: 1px solid #4e2801;
 min-width: 30px;
 min-height: 30px;
 border-radius: 20px;
@@ -210,7 +219,7 @@ top: 120px;
 
 #BlueButton
 {
-background-color: #0d3fe9;
+background: linear-gradient(#2b74f8, #0733e6);
 min-width: 45px;
 min-height: 45px;
 border-radius: 30px;
@@ -223,7 +232,7 @@ left: -35px;
 #GreenOvalLeft
 {
 
-background-color: #1fa007;
+background: linear-gradient(#2ac50a, #147c04);
 top: -10px;
 right: 15px;
 display: inline-block;
@@ -238,7 +247,7 @@ border-radius: 10px;
 #OrangeOvalLeft
 {
 
-background-color: #f9823b;
+background: linear-gradient(#fd914e, #f66f23);
 top: -10px;
 right: 23px;
 display: inline-block;
@@ -294,8 +303,203 @@ left: 15px;
 {
 
 min-height: 5px;
+min-width: 5px;
 background-color: #494949;
 margin: 5px 0px;
 
+
+}
+
+#Bug {
+    background: linear-gradient(to bottom, #afbf28 0%, #88960e 51%, #afbf28 100%);
+
+}
+
+#Dark {
+    background: linear-gradient(to bottom, #5b4537 0%, #3c2d23 50%, #5b4537 100%);
+}
+
+#Dragon {
+    background: linear-gradient(to bottom, #7f68e8 0%, #503ca7 50%, #7f68e8 100%);
+}
+
+#Electric {
+    background: linear-gradient(to bottom, #fdc739 0%, #e69202 50%, #fdc739 100%);
+}
+
+#Fairy {
+    background: linear-gradient(to bottom, #f6b5f6 0%, #e18fe1 50%, #f6b5f6 100%);
+}
+
+#Fighting {
+    background: linear-gradient(to bottom, #85361d 0%, #5f2311 50%, #85361d 100%);
+}
+
+#Fire {
+    background: linear-gradient(to bottom, #f35726 0%, #c72100 50%, #f35726 100%);
+}
+
+#Flying {
+    background: linear-gradient(to bottom, #9aabf6 0%, #5d74d4 50%, #9aabf6 100%);
+}
+
+#Ghost {
+    background: linear-gradient(to bottom, #6262b4 0%, #464694 50%, #6262b4 100%);
+}
+
+#Grass {
+    background: linear-gradient(to bottom, #84cb4a 0%, #389a02 50%, #84cb4a 100%);
+}
+
+#Ground {
+    background: linear-gradient(to bottom, #d8ba66 0%, #b59235 50%, #d8ba66 100%);
+}
+
+#Ice {
+    background: linear-gradient(to bottom, #b7edff 0%, #77d6f6 50%, #b7edff 100%);
+}
+
+#Normal {
+    background: linear-gradient(to bottom, #d5d0ca 0%, #b1a998 50%, #d5d0ca 100%);
+}
+
+#Poison {
+    background: linear-gradient(to bottom, #a35da4 0%, #6d2570 50%, #a35da4 100%);
+}
+
+#Psychic {
+    background: linear-gradient(to bottom, #ee5088 0%, #dc3165 50%, #ee5088 100%);
+}
+
+#Rock {
+    background: linear-gradient(to bottom, #bea65c 0%, #9e863d 50%, #bea65c 100%);
+}
+
+#Steel {
+    background: linear-gradient(to bottom, #babac8 0%, #8e8e9f 50%, #babac8 100%);
+}
+
+#Water {
+    background: linear-gradient(to bottom, #3c9dfe 0%, #0c67c2 50%, #3c9dfe 100%);
+}
+
+.type {
+    border-radius: 35px;
+    margin: 5px;
+    padding-bottom: 4px;
+    justify-content: center;
+    
+    border: 2px solid black;
+    min-width: 160px;
+}
+
+#leftSide {
+    min-width: 500px;
+    padding-right: 0;
+}
+
+#filters {
+    text-align: center;
+    background-color: transparent;
+    margin-top: 5%;
+}
+
+.jumbotron 
+{
+    padding: .5rem 3rem;
+    border-radius: 1.5rem;
+}
+
+#typesContainer
+{
+
+    justify-content: right;
+    position: absolute;
+    min-width: 200px;
+    top: 80px;
+    left: 1100px;
+
+}
+
+#FilterByType
+{
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+}
+
+#filterByName
+{
+    position: absolute;
+    top: 10px;
+    left: 1500px;
+}
+
+#FilterByName
+{
+    position: absolute;
+    top: 30px;
+    left: 1500px;
+}
+
+#DirectionalPad
+{
+    background-color: #222222;
+    min-width: 75px;
+    min-height: 25px;
+    position: absolute;
+    top: 35px;
+    left: 210px;
+
+
+}
+
+#DirectionalPad2
+{
+    background-color: #222222;
+    min-width: 25px;
+    min-height: 75px;
+    position: absolute;
+    top: 10px;
+    left: 235px;
+  
+}
+
+#RedTriangleBtmLeft {
+    content: '';
+    height: 0;
+    position: absolute;
+    display: block;
+    border-right: 60px solid transparent;
+    border-bottom: 70px solid #c00d0d;
+    top: 0px;
+    left: -215px;
+    
+}
+
+#RedDot1
+{
+    position: relative;
+    top: -263px;
+    left: -90px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #e65050;
+    border: 1px solid black;
+
+
+}
+
+#RedDot2
+{
+    position: relative;
+    top: -277px;
+    left: -40px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #e65050;
+    border: 1px solid black;
 
 }
