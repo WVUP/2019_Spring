@@ -1,91 +1,125 @@
 #bigRedBox {
-    margin-top: 25;
+    margin-top: 25px;
     background-color: #c10d0e;
-    width: 1000;
-    height: 545;
+    width: 1000px;
+    height: 545px;
     position: relative;
 }
 
 #leftSide {
     background: red;
     position: absolute;
-    margin-top: 25;
-    width: 450;
-    height: 500;
+    margin-top: 25px;
+    width: 450px;
+    height: 500px;
+}
+
+#rightSide {
+    background: red;
+    margin-top: -520px;
+    float: right;
+    width: 470px;
+    height: 500px;
 }
 
 #screenBoundary {
     background-color: silver;
-    width: 400;
-    height: 300;
+    width: 400px;
+    height: 300px;
     border-radius: 5%;
     position: absolute;
-    margin-left: 25;
-    margin-top: 10;
+    margin-left: 25px;
+    margin-top: 10px;
 }
 
 #screenBorder {
     background: black;
-    width: 350;
-    height: 200;
+    width: 350px;
+    height: 200px;
     position: absolute;
     border-radius: 5%;
-    margin-left: 25;
-    margin-top: 25;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 #screen {
     background: white;
-    width: 340;
-    height: 190;
+    width: 340px;
+    height: 190px;
     position: absolute;
     border-radius: 5%;
-    margin-left: 5;
-    margin-top: 5;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 #picHolder {
-    background: wheat;
-    width: 150;
-    height: 150;
+    background: white;
+    width: 150px;
+    height: 150px;
     position: absolute;
-    margin-top: 20;
-    margin-left: 90;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#pic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
 }
 
 #leftBotLeft {
-    background: pink;
+    background: red;
     position: relative;
-    height: 100;
-    width: 100;
-    margin-top: 350;
-    margin-left: 10;
+    height: 100px;
+    width: 100px;
+    margin-top: 350px;
+    margin-left: 10px;
 }
 
 #leftBotLeftCircle {
     background: blue;
     border-radius: 100%;
-    height: 60;
-    width: 60;
-    margin-left: 25;
-    margin-top: 25;
+    height: 60px;
+    width: 60px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
 #leftBotCenter {
-
+    
 }
 
 #contain {
 background: red;
-height: 40;
-width: 100;
+height: 40px;
+width: 100px;
 position: absolute;
-margin-left: 150;
-margin-top: -100;
+margin-left: 150px;
+margin-top: -100px;
 }
 
 #leftBotRight {
+height: 125;
+width: 125;
+margin-top: -90;
+margin-left: 310;
+}
 
+#dPad1 {
+    height: 100;
+    width: 35;
+    margin-left: 38;
+    position: absolute;
+    background-color: black;
+}
+
+#dPad2 {
+    height: 35;
+    width: 100;
+    margin-top: 32;
+    margin-left: 6;
+    position: absolute;
+    background-color: black;
 }
 
 .circle {
@@ -94,41 +128,298 @@ margin-top: -100;
 }
 
 #button1 {
-    height: 25;
-    width: 60;
+    height: 20px;
+    width: 60px;
     background: green;
     position: absolute;
-    border-radius: 35%;
+    border: solid 1px black;
+    text-align: center;
+    border-radius: 30px;
 }
 
 #button2 {
-    height: 25;
-    width: 60;
+    height: 20px;
+    width: 60px;
     background: orange;
-    margin-left: 70;
+    margin-left: 70px;
     position: absolute;
-    border-radius: 35%;
+    border: solid 1px black;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#pokeIDBorder {
+    width: 140px;
+    height: 70px;
+    margin-top: 40px;
+    border-radius: 20px;
+    position: absolute;
+    background: rgb(56, 72, 88);
+}
+
+#pokeID {
+    width: 100px;
+    height: 50;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 15;
+    position: absolute;
+    background: white;
 }
 
 #red1 {
-    width: 12;
-    height: 12;
-    margin-left: 175;
+    width: 12px;
+    height: 12px;
+    margin-left: 175px;
     position: absolute;
-    margin-top: 5;
+    margin-top: 5px;
 }
 
 #red2 {
-    width: 12;
-    height: 12;
+    width: 12px;
+    height: 12px;
     position: absolute;
-    margin-left: 200;
-    margin-top: 5;
+    margin-left: 200px;
+    margin-top: 5px;
 }
 
 .constrain {
     position: absolute;
-    margin-left: 100;
-    height: 25;
-    width: 60;
+    margin-left: 100px;
+    height: 25px;
+    width: 60px;
+}
+
+#bigRed1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 240px;
+}
+
+#speaker {
+    margin-left: 230;
+    margin-top: 240;
+    position: absolute;
+}
+
+#speakerVent {
+    width: 100px; 
+    border: 1px solid blue;
+    border-spacing: 15px;
+}
+
+.vent {
+    width: 40px;
+    height: 8px;
+    background: rgb(53, 53, 53)
+}
+
+#speakerVent1 {
+    position: absolute;
+}
+
+#speakerVent2 {
+    position: absolute; 
+    margin-left: 50px;
+}
+
+#speakerVent3 {
+    position: absolute; 
+    margin-top: 12px;
+}
+
+#speakerVent4 {
+    position: absolute; 
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+#speakerVent5 {
+    position: absolute; 
+    margin-top: 24px;
+}
+
+#speakerVent6 {
+    position: absolute; 
+    margin-top: 24px;
+    margin-left: 50px;
+}
+
+#hinge {
+    background: pink;
+    width: 50px;
+    height: 545px;
+    position: relative;
+    margin-left: 450;
+    background: #77021b; /* Old browsers */
+    background: -moz-linear-gradient(left, #77021b 0%, #c40327 50%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #77021b 0%,#c40327 50%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #77021b 0%,#c40327 50%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77021b', endColorstr='#6d0019',GradientType=1 ); /* IE6-9 */
+}
+
+#topHinge {
+
+}
+
+#midHinge {
+
+}
+
+#bottomHinge {
+
+}
+
+#greenBox {
+    height: 150;
+    width: 350;
+    background: lime;
+    border-radius: 20px;
+    position: relative;
+    margin-left: 60;
+    margin-top: 15;
+    border: 2px solid green;
+}
+
+#blueBox {
+    height: 100;
+    width: 250;
+    background: rgb(36, 36, 255);
+    margin-top: 25;
+    margin-left: 110;
+    border: 2px solid blue;
+}
+
+#yellowBoxContainer {
+    background: red;
+    height: 75;
+    width: 300;
+    margin-top: 125;
+    margin-left: 85;
+    position: absolute;
+}
+
+#leftYellow {
+    position: absolute;
+    height: 60;
+    width: 125;
+    margin-top: 10;
+    background: gold;
+    border: 1px solid darkgoldenrod;
+    border-radius: 15px;
+}
+
+#rightYellow {  
+    position: absolute;
+    height: 60;
+    width: 125;
+    background: gold;
+    margin-left: 175;
+    margin-top: 10;
+    border: 1px solid darkgoldenrod;
+    border-radius: 15px;
+}
+
+#grayContainer {
+    height: 45;
+    width: 100;
+    background: darkslategray;
+    position: absolute;
+    margin-top: 80;
+    margin-left: 80;
+    border-radius: 10px;
+}
+
+#grayButton {
+    position: absolute;
+    background: gray;
+    height: 45;
+    width: 99;
+    margin-left: 1;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+}
+
+#grayCaretLeft {
+    position: absolute;
+    margin-left: 15;
+    margin-top: 15;
+}
+
+#grayCaretRight {
+    position: absolute;
+    margin-left: 70;
+    margin-top: 15;
+}
+
+#divider {
+    height: 42;
+    background: darkslategray;
+    width: 3;
+    margin-left: 45;
+}
+
+#rightB1 {
+    height: 15;
+    width: 15;
+    margin-top: 45;
+    margin-left: 120;
+    position: absolute;
+    border-radius: 20px;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+#rightB2 {
+    height: 15;
+    width: 15;
+    margin-top: 45;
+    margin-left: 85;
+    position: absolute;
+    border-radius: 20px;
+    background-color: green;
+    border: solid 1px black;
+}
+
+#rightLongB1 {
+    height: 15;
+    width: 50;
+    margin-top: 45;
+    margin-left: 250;
+    position: absolute;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    border: solid 1px black;
+}
+
+#rightLongB2 {
+    height: 15;
+    width: 50;
+    margin-top: 45;
+    margin-left: 320;
+    position: absolute;
+    border-radius: 20px;
+    background-color: orange;
+    border: solid 1px black;
+}
+
+#yellowCircle {
+    height: 35;
+    width: 35;
+    margin-top: 5;
+    margin-left: 260;
+    position: absolute;
+    border-radius: 20px;
+    background-color: yellow;
+    border: solid 1px black;
+}
+
+#yellowCaret {
+    margin-top: 10;
+    margin-left: 10;
 }
