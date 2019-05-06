@@ -1,0 +1,137 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="DavesPokedex.css">
+    <title>I Choose You!</title>
+</head>
+<body>
+    <div id=Pokedex>
+        <div id=top-part>
+                <div id="BlueThing">
+                        <div id="reflect"> </div>
+                    </div>
+                    <div id="RedButton"></div>
+                    <div id="YellowButton"></div>
+                    <div id="GreenButton"></div>
+        </div> 
+
+        <div id="Screen">
+                  <div id="SmRedButton1"></div>
+                  <div id="SmRedButton2"></div>
+                  <div id="speakers">
+                    <div class="speaker1"></div>
+                    <div class="speaker2"></div>
+                    <div class="speaker3"></div>
+                    <div class="speaker4"></div>
+                  </div> 
+                  
+                  <div class="Pokemon-list" id="listaPokemon">
+                          <div class="pokemon" id="pokemon-1">
+                              <img src="" alt="">
+                              <p></p>
+                          </div>
+                  </div>
+                 
+                  <div id=BgRedButton></div>             
+        </div>
+
+        <button id="bigbluebutton" onclick="consultarPokemones ()"></button>
+        <div id="skinnygrbutton"></div>
+        <div id="skinnyredbutton"></div>
+
+        <div id="cross">
+                <div id="leftcross">
+                  <div id="leftT"></div>
+                </div>
+                <div id="topcross">
+                  <div id="upT"></div>
+                </div>
+                <div id="rightcross">
+                  <div id="rightT"></div>
+                </div>
+                <div id="midcross"></div>
+                <div id="botcross">
+                  <div id="downT"></div>
+                </div>
+        </div>
+
+        <div id=MidBar>
+                <div id=topblockmid></div>
+                <div id=topblock2></div>
+                <div id=topblock3></div>
+                <div id=topblock4></div>
+                <div id=topblock5></div>
+        </div>
+
+        <div id=rightside>
+                <div id=Greenscreen></div>
+                <div id=SmOrangeButt></div>
+                <div id=TR>
+                    <img src="1272777899.rocketinc_rocket_logo_vector.png"></div>
+                </div>
+        
+
+        <div id="blueButtons1">
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+              </div>
+              <div id="blueButtons2">
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+                <div class="blueButton"></div>
+              </div>
+            </div>
+
+
+    </div>
+
+    <script>
+
+        let lista = document.getElementById("listaPokemon")
+        
+        function consultarPokemon (id, num) { 
+                fetch (`https://pokeapi.co/api/v2/pokemon/${id}`)
+            .then (function (response) {
+            response.json()
+            .then (function (pokemon) {
+                crearPokemon (pokemon, num)
+            })
+            })
+                
+        }
+        
+        function consultarPokemones () {
+            let primerId= Math.round(Math.random() * 150)
+            let segundoId= Math.round(Math.random() * 150)
+            
+            consultarPokemon (primerId, 1)
+            consultarPokemon (segundoId, 2)
+        }
+        
+        function crearPokemon (pokemon, num) {
+            let item = lista.querySelector(`#pokemon-${num}`)
+            let imagen = item.getElementsByTagName("img")[0]
+            imagen.setAttribute("src", pokemon.sprites.front_default)
+        
+        
+            let nombre = item.getElementsByTagName("p")[0]
+            nombre.textContent = pokemon.name
+        
+        
+        }
+        
+        consultarPokemones ()
+            
+        
+        </script>
+
+
+</body>
+</html>
