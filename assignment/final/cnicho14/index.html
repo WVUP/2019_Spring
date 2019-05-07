@@ -9,14 +9,15 @@
     <title>Pokedex</title>
   </head>
   <body>
+      <button type="button" id="buttonone" onclick="fetchPkmn(true)"> Load More </button>
     <div class="container1">
       <div class="containerleftside">
         <div class="greycontainer">
           <div class="redcircle">
             <div class="redcircle2"></div>
           </div>
-          <div class="whitecontainer">
-            <img src="images/bulb.jpg" id="bulb" />
+          <div class="whitecontainer" id="whitescontainer">
+            
           </div>
           <div class="bottomleftcirle">
             <div class="blackline">
@@ -31,7 +32,7 @@
           </div>
         </div>
       </div>
-      <div class="bluecircle"></div>
+      <div class="bluecircle onclick"></div>
       <div class="greenboy">
           
       </div>
@@ -71,8 +72,8 @@
         <div class="rightyellowbutton"></div>
       </div>
     </div>
-    <div id="displays">
-    </div>
     <h1 id="h1s">Filter by Name</h1>
   </body>
+  <div id="displays">
+  </div>
 </html>
