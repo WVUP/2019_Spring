@@ -424,14 +424,6 @@
   border-radius: 10px;
 }
 
-#bulb {
-  position: relative;
-  left: 45px;
-  top: 35px;
-  height: 200px;
-  width: 200px;
-}
-
 #displays {
   display: inline-block;
   position: inherit;
@@ -449,6 +441,10 @@
   top: -2280px;
   left: -1020px;
   z-index: 1;
+}
+#buttonone {
+  top: -1000px;
+  left: 400px;
 }
 
 /*Large divider in middle of pokedex
